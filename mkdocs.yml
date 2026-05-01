@@ -8,11 +8,46 @@ nav:
     - Plano de Teste: projeto/plano-teste.md
 
   - Pirâmide de Testes:
-      - Sobre: piramide/index.md
-      - Testes Unitários: piramide/unitarios.md
-      - Testes de Integração: piramide/integracao.md
-      - Testes de Interface: piramide/interface.md
+    - Sobre: piramide/index.md
+    - Testes Unitários: piramide/unitarios.md
+    - Testes de Integração: piramide/integracao.md
+    - Testes de Interface: piramide/interface.md
 
+  - Testes Unitários:
+    - Sobre: unitarios/index.md
+    - Ferramentas:
+      - Jest:
+        - Sobre: unitarios/tools/jest/sobre.md
+        - Instalação: unitarios/tools/jest/install.md
+        - Criando Teste: unitarios/tools/jest/teste.md
+        - Executando: unitarios/tools/jest/exec.md
+        - Report: unitarios/tools/jest/report.md
+        - Dicas: unitarios/tools/jest/dicas.md
+
+      - Mocha:
+        - Sobre: unitarios/tools/mocha/sobre.md
+        - Instalação: unitarios/tools/mocha/install.md
+        - Criando Teste: unitarios/tools/mocha/teste.md
+        - Executando: unitarios/tools/mocha/exec.md
+        - Report: unitarios/tools/mocha/report.md
+        - Dicas: unitarios/tools/mocha/dicas.md
+      
+      - Jasmine:
+        - Sobre: unitarios/tools/jasmine/sobre.md
+        - Instalação: unitarios/tools/jasmine/install.md
+        - Criando Teste: unitarios/tools/jasmine/teste.md
+        - Executando: unitarios/tools/jasmine/exec.md
+        - Report: unitarios/tools/jasmine/report.md
+        - Dicas: unitarios/tools/jasmine/dicas.md
+      
+      - Pytest:
+        - Sobre: unitarios/tools/pytest/sobre.md
+        - Instalação: unitarios/tools/pytest/install.md
+        - Criando Teste: unitarios/tools/pytest/teste.md
+        - Executando: unitarios/tools/pytest/exec.md
+        - Report: unitarios/tools/pytest/report.md
+        - Dicas: unitarios/tools/pytest/dicas.md
+  
   - Testes Manuais:
     - Sobre: manual/index.md
 
