@@ -7,6 +7,12 @@ nav:
     - Diagrama: projeto/diagrama.md
     - Plano de Teste: projeto/plano-teste.md
 
+  - Pirâmide de Testes:
+      - Sobre: piramide/index.md
+      - Testes Unitários: piramide/unitarios.md
+      - Testes de Integração: piramide/integracao.md
+      - Testes de Interface: piramide/interface.md
+
   - Testes Manuais:
     - Sobre: manual/index.md
 
