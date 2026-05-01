@@ -48,7 +48,7 @@ nav:
         - Report: unitarios/tools/pytest/report.md
         - Dicas: unitarios/tools/pytest/dicas.md
 
-  # - Testes de Integração:
+  - Testes de Integração:
   #   - Sobre: integracao/index.md
   #   - Ferramentas:
   #     - Postman:
