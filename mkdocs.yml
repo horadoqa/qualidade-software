@@ -14,7 +14,7 @@ nav:
       - Testes de Integração: testes/piramide/integracao.md
       - Testes de Interface: testes/piramide/interface.md
     
-  - Testes Unitários:
+    - Testes Unitários:
     - Sobre: testes/unitarios/index.md
     - Ferramentas:
       - Jest:
@@ -49,7 +49,7 @@ nav:
         - Report: testes/unitarios/tools/pytest/report.md
         - Dicas: testes/unitarios/tools/pytest/dicas.md
 
-  - Testes de Integração:
+    - Testes de Integração:
     - Sobre: testes/integracao/index.md
     - CRUD: testes/integracao/crud.md
     - Ferramentas:
@@ -96,7 +96,7 @@ nav:
         - Report: testes/integracao/tools/rest/report.md
         - Dicas: testes/integracao/tools/rest/dicas.md
 
-  - Testes Manuais:
+    - Testes Manuais:
     - Sobre: testes/manual/index.md
 
     - Tipos:
@@ -105,7 +105,7 @@ nav:
       - Teste de regressão: testes/manual/tipos/regressao.md
       - Teste de usabilidade: testes/manual/tipos/usabilidade.md
   
-  - Testes Automatizados:
+    - Testes Automatizados:
     - Sobre: testes/automatizados/index.md
     - Ferramentas:
       - Cypress:
@@ -156,7 +156,7 @@ nav:
     - Boas práticas:
       - POM (Page Object Model): testes/automatizados/pratics/pom.md
   
-  - Testes de Performance:
+    - Testes de Performance:
     - Sobre: testes/performance/index.md
 
     - Tipos:
