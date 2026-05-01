@@ -1,0 +1,31 @@
+## 📄 Listar todos os produtos
+
+Listando todos os produtos cadastrados:
+
+```bash
+curl -X GET https://serverest.dev/produtos
+```
+
+Resposta:
+
+```bash
+{
+    "quantidade": 2,
+    "produtos": [
+        {
+            "nome": "Logitech MX Vertical",
+            "preco": 470,
+            "descricao": "Mouse",
+            "quantidade": 382,
+            "_id": "BeeJh5lz3k6kSIzA"
+        },
+        {
+            "nome": "Samsung 60 polegadas",
+            "preco": 5240,
+            "descricao": "TV",
+            "quantidade": 49977,
+            "_id": "K6leHdftCeOJj8BJ"
+        }
+    ]
+}
+```

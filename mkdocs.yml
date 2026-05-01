@@ -50,7 +50,25 @@ nav:
 
   - Testes de Integração:
     - Sobre: integracao/index.md
+    - CRUD: integracao/crud.md
     - Ferramentas:
+      - cURL:
+        - Sobre: integracao/tools/curl/sobre.md
+        - Instalação: integracao/tools/curl/install.md
+        - Utilizando: integracao/tools/curl/teste.md
+        - Usuário: 
+           - Criar: integracao/tools/curl/usuario/cadastrar.md
+           - Logar: integracao/tools/curl/usuario/logar.md
+           - Listar: integracao/tools/curl/usuario/listar.md
+           - Atualizar: integracao/tools/curl/usuario/atualizar.md
+           - Deletar: integracao/tools/curl/usuario/deletar.md
+        - Produto:
+           - Criar: integracao/tools/curl/produto/criar.md
+           - Listar: integracao/tools/curl/produto/listar.md
+           - Atualizar: integracao/tools/curl/produto/atualizar.md
+           - Deletar: integracao/tools/curl/produto/deletar.md
+           - Dicas: integracao/tools/curl/dicas.md
+
       - Postman:
         - Sobre: integracao/tools/postman/sobre.md
         - Instalação: integracao/tools/postman/install.md
