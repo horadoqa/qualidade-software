@@ -60,11 +60,13 @@ nav:
            - Criar: integracao/tools/curl/usuario/cadastrar.md
            - Logar: integracao/tools/curl/usuario/logar.md
            - Listar: integracao/tools/curl/usuario/listar.md
+           - Listar por ID: integracao/tools/curl/usuario/listar-id.md
            - Atualizar: integracao/tools/curl/usuario/atualizar.md
            - Deletar: integracao/tools/curl/usuario/deletar.md
         - Produto:
            - Criar: integracao/tools/curl/produto/criar.md
            - Listar: integracao/tools/curl/produto/listar.md
+           - Listar por ID: integracao/tools/curl/produto/listar-id.md
            - Atualizar: integracao/tools/curl/produto/atualizar.md
            - Deletar: integracao/tools/curl/produto/deletar.md
            - Dicas: integracao/tools/curl/dicas.md
