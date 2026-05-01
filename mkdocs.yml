@@ -47,7 +47,34 @@ nav:
         - Executando: unitarios/tools/pytest/exec.md
         - Report: unitarios/tools/pytest/report.md
         - Dicas: unitarios/tools/pytest/dicas.md
-  
+
+  - Testes de Integração:
+    - Sobre: integracao/index.md
+    - Ferramentas:
+      - Postman:
+        - Sobre: integracao/tools/postman/sobre.md
+        - Instalação: integracao/tools/postman/install.md
+        - Criando Teste: integracao/tools/postman/teste.md
+        - Executando: integracao/tools/postman/exec.md
+        - Report: integracao/tools/postman/report.md
+        - Dicas: integracao/tools/postman/dicas.md
+
+        - Insomnia: 
+        - Sobre: integracao/tools/insomnia/sobre.md
+        - Instalação: integracao/tools/insomnia/install.md
+        - Criando Teste: integracao/tools/insomnia/teste.md
+        - Executando: integracao/tools/insomnia/exec.md
+        - Report: integracao/tools/insomnia/report.md
+        - Dicas: integracao/tools/insomnia/dicas.md
+
+        - Rest Assured:
+        - Sobre: integracao/tools/rest/sobre.md
+        - Instalação: integracao/tools/rest/install.md
+        - Criando Teste: integracao/tools/rest/teste.md
+        - Executando: integracao/tools/rest/exec.md
+        - Report: integracao/tools/rest/report.md
+        - Dicas: integracao/tools/rest/dicas.md
+
   - Testes Manuais:
     - Sobre: manual/index.md
 
