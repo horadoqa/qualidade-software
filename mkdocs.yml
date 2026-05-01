@@ -7,180 +7,181 @@ nav:
     - Diagrama: projeto/diagrama.md
     - Plano de Teste: projeto/plano-teste.md
 
-  - Pirâmide de Testes:
-    - Sobre: piramide/index.md
-    - Testes Unitários: piramide/unitarios.md
-    - Testes de Integração: piramide/integracao.md
-    - Testes de Interface: piramide/interface.md
+  - Testes:
+    - Pirâmide de Testes:
+      - Sobre: testes/piramide/index.md
+      - Testes Unitários: testes/piramide/unitarios.md
+      - Testes de Integração: testes/piramide/integracao.md
+      - Testes de Interface: testes/piramide/interface.md
     
   - Testes Unitários:
-    - Sobre: unitarios/index.md
+    - Sobre: testes/unitarios/index.md
     - Ferramentas:
       - Jest:
-        - Sobre: unitarios/tools/jest/sobre.md
-        - Instalação: unitarios/tools/jest/install.md
-        - Criando Teste: unitarios/tools/jest/teste.md
-        - Executando: unitarios/tools/jest/exec.md
-        - Report: unitarios/tools/jest/report.md
-        - Dicas: unitarios/tools/jest/dicas.md
+        - Sobre: testes/unitarios/tools/jest/sobre.md
+        - Instalação: testes/unitarios/tools/jest/install.md
+        - Criando Teste: testes/unitarios/tools/jest/teste.md
+        - Executando: testes/unitarios/tools/jest/exec.md
+        - Report: testes/unitarios/tools/jest/report.md
+        - Dicas: testes/unitarios/tools/jest/dicas.md
 
       - Mocha:
-        - Sobre: unitarios/tools/mocha/sobre.md
-        - Instalação: unitarios/tools/mocha/install.md
-        - Criando Teste: unitarios/tools/mocha/teste.md
-        - Executando: unitarios/tools/mocha/exec.md
-        - Report: unitarios/tools/mocha/report.md
-        - Dicas: unitarios/tools/mocha/dicas.md
+        - Sobre: testes/unitarios/tools/mocha/sobre.md
+        - Instalação: testes/unitarios/tools/mocha/install.md
+        - Criando Teste: testes/unitarios/tools/mocha/teste.md
+        - Executando: testes/unitarios/tools/mocha/exec.md
+        - Report: testes/unitarios/tools/mocha/report.md
+        - Dicas: testes/unitarios/tools/mocha/dicas.md
       
       - Jasmine:
-        - Sobre: unitarios/tools/jasmine/sobre.md
-        - Instalação: unitarios/tools/jasmine/install.md
-        - Criando Teste: unitarios/tools/jasmine/teste.md
-        - Executando: unitarios/tools/jasmine/exec.md
-        - Report: unitarios/tools/jasmine/report.md
-        - Dicas: unitarios/tools/jasmine/dicas.md
-      
+        - Sobre: testes/unitarios/tools/jasmine/sobre.md
+        - Instalação: testes/unitarios/tools/jasmine/install.md
+        - Criando Teste: testes/unitarios/tools/jasmine/teste.md
+        - Executando: testes/unitarios/tools/jasmine/exec.md
+        - Report: testes/unitarios/tools/jasmine/report.md
+        - Dicas: testes/unitarios/tools/jasmine/dicas.md
+
       - Pytest:
-        - Sobre: unitarios/tools/pytest/sobre.md
-        - Instalação: unitarios/tools/pytest/install.md
-        - Criando Teste: unitarios/tools/pytest/teste.md
-        - Executando: unitarios/tools/pytest/exec.md
-        - Report: unitarios/tools/pytest/report.md
-        - Dicas: unitarios/tools/pytest/dicas.md
+        - Sobre: testes/unitarios/tools/pytest/sobre.md
+        - Instalação: testes/unitarios/tools/pytest/install.md
+        - Criando Teste: testes/unitarios/tools/pytest/teste.md
+        - Executando: testes/unitarios/tools/pytest/exec.md
+        - Report: testes/unitarios/tools/pytest/report.md
+        - Dicas: testes/unitarios/tools/pytest/dicas.md
 
   - Testes de Integração:
-    - Sobre: integracao/index.md
-    - CRUD: integracao/crud.md
+    - Sobre: testes/integracao/index.md
+    - CRUD: testes/integracao/crud.md
     - Ferramentas:
       - cURL:
-        - Sobre: integracao/tools/curl/sobre.md
-        - Instalação: integracao/tools/curl/install.md
-        - Utilizando: integracao/tools/curl/teste.md
+        - Sobre: testes/integracao/tools/curl/sobre.md
+        - Instalação: testes/integracao/tools/curl/install.md
+        - Utilizando: testes/integracao/tools/curl/teste.md
         - Usuário: 
-           - Criar: integracao/tools/curl/usuario/cadastrar.md
-           - Logar: integracao/tools/curl/usuario/logar.md
-           - Listar: integracao/tools/curl/usuario/listar.md
-           - Listar por ID: integracao/tools/curl/usuario/listar-id.md
-           - Atualizar: integracao/tools/curl/usuario/atualizar.md
-           - Deletar: integracao/tools/curl/usuario/deletar.md
+           - Criar: testes/integracao/tools/curl/usuario/cadastrar.md
+           - Logar: testes/integracao/tools/curl/usuario/logar.md
+           - Listar: testes/integracao/tools/curl/usuario/listar.md
+           - Listar por ID: testes/integracao/tools/curl/usuario/listar-id.md
+           - Atualizar: testes/integracao/tools/curl/usuario/atualizar.md
+           - Deletar: testes/integracao/tools/curl/usuario/deletar.md
         - Produto:
-           - Criar: integracao/tools/curl/produto/criar.md
-           - Listar: integracao/tools/curl/produto/listar.md
-           - Listar por ID: integracao/tools/curl/produto/listar-id.md
-           - Atualizar: integracao/tools/curl/produto/atualizar.md
-           - Deletar: integracao/tools/curl/produto/deletar.md
-           - Dicas: integracao/tools/curl/dicas.md
+           - Criar: testes/integracao/tools/curl/produto/criar.md
+           - Listar: testes/integracao/tools/curl/produto/listar.md
+           - Listar por ID: testes/integracao/tools/curl/produto/listar-id.md
+           - Atualizar: testes/integracao/tools/curl/produto/atualizar.md
+           - Deletar: testes/integracao/tools/curl/produto/deletar.md
+           - Dicas: testes/integracao/tools/curl/dicas.md
 
       - Postman:
-        - Sobre: integracao/tools/postman/sobre.md
-        - Instalação: integracao/tools/postman/install.md
-        - Criando Teste: integracao/tools/postman/teste.md
-        - Executando: integracao/tools/postman/exec.md
-        - Report: integracao/tools/postman/report.md
-        - Dicas: integracao/tools/postman/dicas.md
+        - Sobre: testes/integracao/tools/postman/sobre.md
+        - Instalação: testes/integracao/tools/postman/install.md
+        - Criando Teste: testes/integracao/tools/postman/teste.md
+        - Executando: testes/integracao/tools/postman/exec.md
+        - Report: testes/integracao/tools/postman/report.md
+        - Dicas: testes/integracao/tools/postman/dicas.md
 
       - Insomnia: 
-        - Sobre: integracao/tools/insomnia/sobre.md
-        - Instalação: integracao/tools/insomnia/install.md
-        - Criando Teste: integracao/tools/insomnia/teste.md
-        - Executando: integracao/tools/insomnia/exec.md
-        - Report: integracao/tools/insomnia/report.md
-        - Dicas: integracao/tools/insomnia/dicas.md
+        - Sobre: testes/integracao/tools/insomnia/sobre.md
+        - Instalação: testes/integracao/tools/insomnia/install.md
+        - Criando Teste: testes/integracao/tools/insomnia/teste.md
+        - Executando: testes/integracao/tools/insomnia/exec.md
+        - Report: testes/integracao/tools/insomnia/report.md
+        - Dicas: testes/integracao/tools/insomnia/dicas.md
 
       - Rest Assured:
-        - Sobre: integracao/tools/rest/sobre.md
-        - Instalação: integracao/tools/rest/install.md
-        - Criando Teste: integracao/tools/rest/teste.md
-        - Executando: integracao/tools/rest/exec.md
-        - Report: integracao/tools/rest/report.md
-        - Dicas: integracao/tools/rest/dicas.md
+        - Sobre: testes/integracao/tools/rest/sobre.md
+        - Instalação: testes/integracao/tools/rest/install.md
+        - Criando Teste: testes/integracao/tools/rest/teste.md
+        - Executando: testes/integracao/tools/rest/exec.md
+        - Report: testes/integracao/tools/rest/report.md
+        - Dicas: testes/integracao/tools/rest/dicas.md
 
   - Testes Manuais:
-    - Sobre: manual/index.md
+    - Sobre: testes/manual/index.md
 
     - Tipos:
-      - Teste exploratório: manual/tipos/exploratorio.md
-      - Teste funcional: manual/tipos/funcional.md
-      - Teste de regressão: manual/tipos/regressao.md
-      - Teste de usabilidade: manual/tipos/usabilidade.md
+      - Teste exploratório: testes/manual/tipos/exploratorio.md
+      - Teste funcional: testes/manual/tipos/funcional.md
+      - Teste de regressão: testes/manual/tipos/regressao.md
+      - Teste de usabilidade: testes/manual/tipos/usabilidade.md
   
   - Testes Automatizados:
-    - Sobre: automatizados/index.md
+    - Sobre: testes/automatizados/index.md
     - Ferramentas:
       - Cypress:
-        - Sobre: automatizados/tools/cypress/sobre.md
-        - Instalação: automatizados/tools/cypress/install.md
-        - Criando Teste: automatizados/tools/cypress/teste.md
-        - Executando: automatizados/tools/cypress/exec.md
-        - Report: automatizados/tools/cypress/report.md
-        - Dicas: automatizados/tools/cypress/dicas.md
-        - CI/CD: automatizados/tools/cypress/ci.md
+        - Sobre: testes/automatizados/tools/cypress/sobre.md
+        - Instalação: testes/automatizados/tools/cypress/install.md
+        - Criando Teste: testes/automatizados/tools/cypress/teste.md
+        - Executando: testes/automatizados/tools/cypress/exec.md
+        - Report: testes/automatizados/tools/cypress/report.md
+        - Dicas: testes/automatizados/tools/cypress/dicas.md
+        - CI/CD: testes/automatizados/tools/cypress/ci.md
       
       - Cucumber:
-        - Sobre: automatizados/tools/cucumber/sobre.md
-        - Instalação: automatizados/tools/cucumber/install.md
-        - Criando Teste: automatizados/tools/cucumber/teste.md
-        - Executando: automatizados/tools/cucumber/exec.md
-        - Report: automatizados/tools/cucumber/report.md
-        - Dicas: automatizados/tools/cucumber/dicas.md
-        - CI/CD: automatizados/tools/cucumber/ci.md
+        - Sobre: testes/automatizados/tools/cucumber/sobre.md
+        - Instalação: testes/automatizados/tools/cucumber/install.md
+        - Criando Teste: testes/automatizados/tools/cucumber/teste.md
+        - Executando: testes/automatizados/tools/cucumber/exec.md
+        - Report: testes/automatizados/tools/cucumber/report.md
+        - Dicas: testes/automatizados/tools/cucumber/dicas.md
+        - CI/CD: testes/automatizados/tools/cucumber/ci.md
 
       - Playwright:
-        - Sobre: automatizados/tools/playwright/sobre.md
-        - Instalação: automatizados/tools/playwright/install.md
-        - Criando Teste: automatizados/tools/playwright/teste.md
-        - Executando: automatizados/tools/playwright/exec.md
-        - Report: automatizados/tools/playwright/report.md    
-        - Dicas: automatizados/tools/playwright/dicas.md
-        - CI/CD: automatizados/tools/playwright/ci.md
+        - Sobre: testes/automatizados/tools/playwright/sobre.md
+        - Instalação: testes/automatizados/tools/playwright/install.md
+        - Criando Teste: testes/automatizados/tools/playwright/teste.md
+        - Executando: testes/automatizados/tools/playwright/exec.md
+        - Report: testes/automatizados/tools/playwright/report.md    
+        - Dicas: testes/automatizados/tools/playwright/dicas.md
+        - CI/CD: testes/automatizados/tools/playwright/ci.md
       
       - Robot Framework:
-        - Sobre: automatizados/tools/robot/sobre.md
-        - Instalação: automatizados/tools/robot/install.md
-        - Criando Teste: automatizados/tools/robot/teste.md
-        - Executando: automatizados/tools/robot/exec.md
-        - Report: automatizados/tools/robot/report.md
-        - Dicas: automatizados/tools/robot/dicas.md
-        - CI/CD: automatizados/tools/robot/ci.md
+        - Sobre: testes/automatizados/tools/robot/sobre.md
+        - Instalação: testes/automatizados/tools/robot/install.md
+        - Criando Teste: testes/automatizados/tools/robot/teste.md
+        - Executando: testes/automatizados/tools/robot/exec.md
+        - Report: testes/automatizados/tools/robot/report.md
+        - Dicas: testes/automatizados/tools/robot/dicas.md
+        - CI/CD: testes/automatizados/tools/robot/ci.md
 
       - Selenium:
-        - Sobre: automatizados/tools/selenium/sobre.md
-        - Instalação: automatizados/tools/selenium/install.md
-        - Criando Teste: automatizados/tools/selenium/teste.md
-        - Executando: automatizados/tools/selenium/exec.md
-        - Report: automatizados/tools/selenium/report.md
-        - Dicas: automatizados/tools/selenium/dicas.md
-        - CI/CD: automatizados/tools/selenium/ci.md
+        - Sobre: testes/automatizados/tools/selenium/sobre.md
+        - Instalação: testes/automatizados/tools/selenium/install.md
+        - Criando Teste: testes/automatizados/tools/selenium/teste.md
+        - Executando: testes/automatizados/tools/selenium/exec.md
+        - Report: testes/automatizados/tools/selenium/report.md
+        - Dicas: testes/automatizados/tools/selenium/dicas.md
+        - CI/CD: testes/automatizados/tools/selenium/ci.md
 
     - Boas práticas:
-      - POM (Page Object Model): automatizados/pratics/pom.md
+      - POM (Page Object Model): testes/automatizados/pratics/pom.md
   
   - Testes de Performance:
-    - Sobre: performance/index.md
+    - Sobre: testes/performance/index.md
 
     - Tipos:
-      - Load Testing (Teste de Carga): performance/tipos/load.md
-      - Stress Testing (Teste de Estresse): performance/tipos/stress.md
-      - Spike Testing (Teste de Pico): performance/tipos/spike.md
-      - Endurance Testing (Teste de Resistência): performance/tipos/endurance.md
-      - Scalability Testing (Teste de Escalabilidade): performance/tipos/scalability.md
+      - Load Testing (Teste de Carga): testes/performance/tipos/load.md
+      - Stress Testing (Teste de Estresse): testes/performance/tipos/stress.md
+      - Spike Testing (Teste de Pico): testes/performance/tipos/spike.md
+      - Endurance Testing (Teste de Resistência): testes/performance/tipos/endurance.md
+      - Scalability Testing (Teste de Escalabilidade): testes/performance/tipos/scalability.md
 
     - Ferramentas:
       - k6: 
-        - Sobre: performance/tools/k6/sobre.md
+        - Sobre: testes/performance/tools/k6/sobre.md
         - Instalação:
-          - MacOs: performance/tools/k6/install/mac.md
-          - Windows: performance/tools/k6/install/win.md
-          - Linux: performance/tools/k6/install/linux.md
-        - Script de Teste: performance/tools/k6/script.md
-        - Executando: performance/tools/k6/exec.md
-        - Report: performance/tools/k6/report.md
+          - MacOs: testes/performance/tools/k6/install/mac.md
+          - Windows: testes/performance/tools/k6/install/win.md
+          - Linux: testes/performance/tools/k6/install/linux.md
+        - Script de Teste: testes/performance/tools/k6/script.md
+        - Executando: testes/performance/tools/k6/exec.md
+        - Report: testes/performance/tools/k6/report.md
       
       - JMeter:
-        - Sobre: performance/tools/jmeter/jmeter.md
-        - Instalação: performance/tools/jmeter/install.md
-        - Criando Teste: performance/tools/jmeter/teste.md
-        - Dicas: performance/tools/jmeter/dicas.md
+        - Sobre: testes/performance/tools/jmeter/jmeter.md
+        - Instalação: testes/performance/tools/jmeter/install.md
+        - Criando Teste: testes/performance/tools/jmeter/teste.md
+        - Dicas: testes/performance/tools/jmeter/dicas.md
 
 theme:
   name: material
