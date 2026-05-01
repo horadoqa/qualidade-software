@@ -12,7 +12,7 @@ nav:
     - Testes Unitários: piramide/unitarios.md
     - Testes de Integração: piramide/integracao.md
     - Testes de Interface: piramide/interface.md
-
+    
   - Testes Unitários:
     - Sobre: unitarios/index.md
     - Ferramentas:
@@ -49,7 +49,7 @@ nav:
         - Dicas: unitarios/tools/pytest/dicas.md
 
   - Testes de Integração:
-  #   - Sobre: integracao/index.md
+    - Sobre: integracao/index.md
   #   - Ferramentas:
   #     - Postman:
   #       - Sobre: integracao/tools/postman/sobre.md
