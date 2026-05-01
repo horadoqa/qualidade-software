@@ -50,14 +50,14 @@ nav:
 
   - Testes de Integração:
     - Sobre: integracao/index.md
-  - Ferramentas:
-    - Postman:
-      - Sobre: integracao/tools/postman/sobre.md
-      - Instalação: integracao/tools/postman/install.md
-      - Criando Teste: integracao/tools/postman/teste.md
-      - Executando: integracao/tools/postman/exec.md
-      - Report: integracao/tools/postman/report.md
-      - Dicas: integracao/tools/postman/dicas.md
+    - Ferramentas:
+      - Postman:
+        - Sobre: integracao/tools/postman/sobre.md
+        - Instalação: integracao/tools/postman/install.md
+        - Criando Teste: integracao/tools/postman/teste.md
+        - Executando: integracao/tools/postman/exec.md
+        - Report: integracao/tools/postman/report.md
+        - Dicas: integracao/tools/postman/dicas.md
 
     - Insomnia: 
       - Sobre: integracao/tools/insomnia/sobre.md
