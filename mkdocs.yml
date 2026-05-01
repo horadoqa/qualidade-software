@@ -1,0 +1,110 @@
+site_name: Hora do QA
+nav:
+  - Qualidade de Software: index.md
+
+  - Sobre o projeto:
+    - serverest.dev: projeto/serverest.md
+    - Diagrama: projeto/diagrama.md
+    - Plano de Teste: projeto/plano-teste.md
+
+  - Testes Manuais:
+    - Sobre: manual/index.md
+
+    - Tipos:
+      - Teste exploratório: manual/tipos/exploratorio.md
+      - Teste funcional: manual/tipos/funcional.md
+      - Teste de regressão: manual/tipos/regressao.md
+      - Teste de usabilidade: manual/tipos/usabilidade.md
+  
+  - Testes Automatizados:
+    - Sobre: automatizados/index.md
+    - Ferramentas:
+      - Cypress:
+        - Sobre: automatizados/tools/cypress/sobre.md
+        - Instalação: automatizados/tools/cypress/install.md
+        - Criando Teste: automatizados/tools/cypress/teste.md
+        - Executando: automatizados/tools/cypress/exec.md
+        - Report: automatizados/tools/cypress/report.md
+        - Dicas: automatizados/tools/cypress/dicas.md
+        - CI/CD: automatizados/tools/cypress/ci.md
+      
+      - Cucumber:
+        - Sobre: automatizados/tools/cucumber/sobre.md
+        - Instalação: automatizados/tools/cucumber/install.md
+        - Criando Teste: automatizados/tools/cucumber/teste.md
+        - Executando: automatizados/tools/cucumber/exec.md
+        - Report: automatizados/tools/cucumber/report.md
+        - Dicas: automatizados/tools/cucumber/dicas.md
+        - CI/CD: automatizados/tools/cucumber/ci.md
+
+      - Playwright:
+        - Sobre: automatizados/tools/playwright/sobre.md
+        - Instalação: automatizados/tools/playwright/install.md
+        - Criando Teste: automatizados/tools/playwright/teste.md
+        - Executando: automatizados/tools/playwright/exec.md
+        - Report: automatizados/tools/playwright/report.md    
+        - Dicas: automatizados/tools/playwright/dicas.md
+        - CI/CD: automatizados/tools/playwright/ci.md
+      
+      - Robot Framework:
+        - Sobre: automatizados/tools/robot/sobre.md
+        - Instalação: automatizados/tools/robot/install.md
+        - Criando Teste: automatizados/tools/robot/teste.md
+        - Executando: automatizados/tools/robot/exec.md
+        - Report: automatizados/tools/robot/report.md
+        - Dicas: automatizados/tools/robot/dicas.md
+        - CI/CD: automatizados/tools/robot/ci.md
+
+      - Selenium:
+        - Sobre: automatizados/tools/selenium/sobre.md
+        - Instalação: automatizados/tools/selenium/install.md
+        - Criando Teste: automatizados/tools/selenium/teste.md
+        - Executando: automatizados/tools/selenium/exec.md
+        - Report: automatizados/tools/selenium/report.md
+        - Dicas: automatizados/tools/selenium/dicas.md
+        - CI/CD: automatizados/tools/selenium/ci.md
+
+    - Boas práticas:
+      - POM (Page Object Model): automatizados/pratics/pom.md
+  
+  - Testes de Performance:
+    - Sobre: performance/index.md
+
+    - Tipos:
+      - Load Testing (Teste de Carga): performance/tipos/load.md
+      - Stress Testing (Teste de Estresse): performance/tipos/stress.md
+      - Spike Testing (Teste de Pico): performance/tipos/spike.md
+      - Endurance Testing (Teste de Resistência): performance/tipos/endurance.md
+      - Scalability Testing (Teste de Escalabilidade): performance/tipos/scalability.md
+
+    - Ferramentas:
+      - k6: 
+        - Sobre: performance/tools/k6/sobre.md
+        - Instalação:
+          - MacOs: performance/tools/k6/install/mac.md
+          - Windows: performance/tools/k6/install/win.md
+          - Linux: performance/tools/k6/install/linux.md
+        - Script de Teste: performance/tools/k6/script.md
+        - Executando: performance/tools/k6/exec.md
+        - Report: performance/tools/k6/report.md
+      
+      - JMeter:
+        - Sobre: performance/tools/jmeter/jmeter.md
+        - Instalação: performance/tools/jmeter/install.md
+        - Criando Teste: performance/tools/jmeter/teste.md
+        - Dicas: performance/tools/jmeter/dicas.md
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
