@@ -7,6 +7,26 @@ nav:
     - Diagrama: projeto/diagrama.md
     - Plano de Teste: projeto/plano-teste.md
 
+  - Metodologias Ageis:
+    - Sobre: metodologias/index.md
+    - Scrum: metodologias/scrum.md
+    - Kanban: metodologias/kanban.md
+    - Waterfall: metodologias/waterfall.md
+
+  - Banco de Dados:
+    - Sobre: banco/index.md
+    - SQL:
+      - Sobre: banco/sql/sobre.md
+      - Instalação: banco/sql/install.md
+      - Comandos: banco/sql/commands.md
+      - Dicas: banco/sql/dicas.md
+
+    - NoSQL:
+      - Sobre: banco/nosql/sobre.md
+      - Instalação: banco/nosql/install.md
+      - Comandos: banco/nosql/commands.md
+      - Dicas: banco/nosql/dicas.md
+
   - Infra:
     - Docker: 
       - Sobre: infra/index.md
