@@ -213,6 +213,11 @@ nav:
           - Criando Teste: testes/performance/tools/jmeter/teste.md
           - Dicas: testes/performance/tools/jmeter/dicas.md
 
+    - Desafios de Teste:
+      - Sobre: testes/desafios/index.md
+      - Desafio 1: testes/desafios/desafio1.md
+      - Desafio 2: testes/desafios/desafio2.md
+      - Desafio 3: testes/desafios/desafio3.md
 theme:
   name: material
   palette:
