@@ -7,6 +7,36 @@ nav:
     - Diagrama: projeto/diagrama.md
     - Plano de Teste: projeto/plano-teste.md
 
+  - Infra:
+    - Docker: 
+      - Sobre: infra/index.md
+      - Comandos: infra/docker/commands.md
+      - Docker Compose: infra/docker/compose.md
+      - Dockerfile: infra/docker/dockerfile.md
+      - Docker Hub: infra/docker/hub.md
+
+  - Programação:
+    - Linguagens:
+      - Go: 
+        - Sobre: programacao/go/sobre.md
+        - Instalação: programacao/go/install.md
+        - Hello World: programacao/go/hello.md
+
+      - JavaScript:
+        - Sobre: programacao/javascript/sobre.md
+        - Instalação: programacao/javascript/install.md
+        - Hello World: programacao/javascript/hello.md
+       
+      - Python: 
+        - Sobre: programacao/python/sobre.md
+        - Instalação: programacao/python/install.md
+        - Hello World: programacao/python/hello.md
+
+      - Java: 
+        - Sobre: programacao/java/sobre.md
+        - Instalação: programacao/java/install.md
+        - Hello World: programacao/java/hello.md
+
   - Testes:
     - Pirâmide de Testes:
       - Sobre: testes/piramide/index.md
@@ -158,7 +188,7 @@ nav:
   
     - Testes de Performance:
       - Sobre: testes/performance/index.md
-      
+
       - Tipos:
         - Load Testing (Teste de Carga): testes/performance/tipos/load.md
         - Stress Testing (Teste de Estresse): testes/performance/tipos/stress.md
