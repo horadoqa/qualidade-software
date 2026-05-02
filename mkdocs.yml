@@ -27,6 +27,12 @@ nav:
       - Comandos: banco/nosql/commands.md
       - Dicas: banco/nosql/dicas.md
 
+  - Linux:
+    - Sobre: linux/index.md
+    - Comandos: linux/commands.md
+    - Shell Script: linux/shell.md
+    - Dicas: linux/dicas.md
+
   - Infra:
     - Docker: 
       - Sobre: infra/index.md
