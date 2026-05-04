@@ -4,7 +4,7 @@ Testes unitários são um tipo de teste de software que verificam pequenas parte
 
 A ideia principal é garantir que cada “unidade” do sistema funcione corretamente sozinha, antes de integrar com o resto.
 
-### 🔧 Exemplo simples
+## 🔧 Exemplo simples
 
 Imagine uma função que soma dois números com python:
 
@@ -24,7 +24,7 @@ Esse teste verifica se a função retorna o resultado esperado.
 
 ---
 
-### 📌 Características dos testes unitários
+## 📌 Características dos testes unitários
 
 * Testam partes pequenas do código
 * São rápidos de executar
@@ -33,7 +33,7 @@ Esse teste verifica se a função retorna o resultado esperado.
 
 ---
 
-### 🎯 Por que usar?
+## 🎯 Por que usar?
 
 * Evitam bugs
 * Facilitam manutenção do código
