@@ -55,6 +55,8 @@ nav:
     - Comandos: linux/commands.md
     - Shell Script: linux/shell.md
     - Dicas: linux/dicas.md
+    - Linux no Windows com WSL: linux/wsl.md
+    - OHMYZSH: linux/ohmyzsh.md
 
   - Infra:
     - Docker: 
