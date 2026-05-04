@@ -2274,6 +2274,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Executando
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2290,6 +2308,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-pratico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo prático
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacao-importante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observação importante
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2665,7 +2724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../robot/run.md" class="md-nav__link">
+      <a href="../../robot/run/" class="md-nav__link">
         
   
   
@@ -9515,6 +9574,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-pratico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo prático
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observacao-importante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observação importante
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -9541,6 +9630,70 @@
   npx cypress open
 </code></pre>
 <hr />
+<blockquote>
+<p>Esse comando executa um container Docker com o Cypress (versão 13.6.0) já instalado e abre a interface gráfica do Cypress para testes E2E.</p>
+</blockquote>
+<p>Vou quebrar em partes:</p>
+<pre><code class="language-bash">docker run -it \
+</code></pre>
+<ul>
+<li><code>docker run</code>: inicia um container</li>
+<li><code>-i</code>: mantém o terminal interativo</li>
+<li><code>-t</code>: cria um terminal (TTY), útil para interação</li>
+</ul>
+<hr />
+<pre><code class="language-bash">-v $PWD:/e2e \
+</code></pre>
+<ul>
+<li>Monta a pasta atual (<code>$PWD</code>) dentro do container em <code>/e2e</code></li>
+<li>Ou seja: seus testes do projeto local ficam disponíveis dentro do container</li>
+</ul>
+<hr />
+<pre><code class="language-bash">-w /e2e \
+</code></pre>
+<ul>
+<li>Define o diretório de trabalho dentro do container como <code>/e2e</code></li>
+</ul>
+<hr />
+<pre><code class="language-bash">-e DISPLAY=$DISPLAY \
+</code></pre>
+<ul>
+<li>Passa a variável <code>DISPLAY</code> do seu sistema para o container</li>
+<li>Isso permite abrir interface gráfica (GUI) no Linux/X11</li>
+</ul>
+<hr />
+<pre><code class="language-bash">-v /tmp/.X11-unix:/tmp/.X11-unix \
+</code></pre>
+<ul>
+<li>Compartilha o socket do servidor gráfico X11</li>
+<li>Essencial para o Cypress abrir a interface visual fora do container</li>
+</ul>
+<hr />
+<pre><code class="language-bash">cypress/included:13.6.0 \
+</code></pre>
+<ul>
+<li>Imagem Docker oficial do Cypress já com Node, browser e dependências</li>
+<li>Versão 13.6.0</li>
+</ul>
+<hr />
+<pre><code class="language-bash">npx cypress open
+</code></pre>
+<ul>
+<li>Comando executado dentro do container</li>
+<li>Abre o Cypress em modo interativo (GUI), não headless</li>
+</ul>
+<hr />
+<h2 id="resumo-pratico">Resumo prático</h2>
+<p>Esse comando:</p>
+<p>👉 Sobe um container com Cypress
+👉 Acessa seu projeto local
+👉 Permite rodar testes E2E
+👉 Abre a interface gráfica do Cypress no seu computador</p>
+<hr />
+<h2 id="observacao-importante">Observação importante</h2>
+<p>Isso só funciona bem em sistemas Linux ou WSL com X11 configurado.
+No macOS/Windows puro, normalmente você precisaria de alternativas (como XQuartz ou rodar headless).</p>
+<p>Se quiser, posso te explicar como rodar isso em Windows ou como adaptar para modo headless (CI).</p>
 
 
 
