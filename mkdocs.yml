@@ -37,18 +37,31 @@ nav:
       - Comparação: ageis/tools/comparacao.md
 
   - Banco de Dados:
-    - Sobre: banco/index.md
-    - SQL:
-      - Sobre: banco/sql/sobre.md
-      - Instalação: banco/sql/install.md
-      - Comandos: banco/sql/commands.md
-      - Dicas: banco/sql/dicas.md
+    - Conceitos:
+      - Dados: banco/conceitos/dados.md
+      - Banco de Dados: banco/conceitos/banco.md
+      - Queries: banco/conceitos/queries.md
+      - Modelagem: banco/conceitos/modelagem.md
+      - Json: banco/conceitos/json.md
+      - Indexação: banco/conceitos/indexacao.md
+    
+    - Tipos:
+      - SQL:
+        - Sobre: banco/tipos/sql/sql.md
+        - Instalação: banco/tipos/sql/install.md
+        - Comandos: banco/tipos/sql/commands.md
+        - Dicas: banco/tipos/sql/dicas.md
 
-    - NoSQL:
-      - Sobre: banco/nosql/sobre.md
-      - Instalação: banco/nosql/install.md
-      - Comandos: banco/nosql/commands.md
-      - Dicas: banco/nosql/dicas.md
+      - NoSQL:
+        - Sobre: banco/tipos/nosql/nosql.md
+        - Instalação: banco/tipos/nosql/install.md
+        - Comandos: banco/tipos/nosql/commands.md
+        - Dicas: banco/tipos/nosql/dicas.md
+    
+    - Pratica:
+      - MySQL: banco/pratica/mysql.md
+      - MongoDB: banco/pratica/mongodb.md
+      - Dicas: banco/pratica/dicas.md
 
   - Linux:
     - Sobre: linux/linux.md
