@@ -262,6 +262,17 @@ nav:
           - Criando Teste: testes/performance/tools/jmeter/teste.md
           - Dicas: testes/performance/tools/jmeter/dicas.md
 
+    - Report de Testes:
+      - Sobre: testes/reports/reports.md
+      - Tipos:
+        - Report de Teste Manual: testes/reports/tipos/manual.md
+        - Report de Teste Automatizado: testes/reports/tipos/automatizado.md
+        - Report de Teste de Performance: testes/reports/tipos/performance.md
+        - Report de Bug: testes/reports/tipos/bug.md
+        - Report de Incidente: testes/reports/tipos/incidente.md
+        - Report de Teste de Segurança: testes/reports/tipos/seguranca.md
+        - Report de Teste de Usabilidade: testes/reports/tipos/usabilidade.md
+  
     - Desafios de Teste:
       - Sobre: testes/desafios/index.md
       - Desafio 1: testes/desafios/desafio1.md
