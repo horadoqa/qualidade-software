@@ -60,11 +60,32 @@ nav:
 
   - Infra:
     - Docker: 
-      - Sobre: infra/index.md
+      - Sobre: infra/docker/docker.md
       - Comandos: infra/docker/commands.md
       - Docker Compose: infra/docker/compose.md
       - Dockerfile: infra/docker/dockerfile.md
       - Docker Hub: infra/docker/hub.md
+
+      - Cypress:
+        - Sobre: infra/docker/cypress/cypress.md
+        - Dockerfile: infra/docker/cypress/file.md
+        - Docker Compose: infra/docker/cypress/compose.md
+        - Executando: infra/docker/cypress/run.md
+        - Dicas: infra/docker/cypress/dicas.md
+      
+      - Playwright:
+        - Sobre: infra/docker/playwright/playwright.md
+        - Dockerfile: infra/docker/playwright/file.md
+        - Docker Compose: infra/docker/playwright/compose.md
+        - Executando: infra/docker/playwright/run.md
+        - Dicas: infra/docker/playwright/dicas.md
+
+      - Robot Framework:
+        - Sobre: infra/docker/robot/robot.md
+        - Dockerfile: infra/docker/robot/file.md
+        - Docker Compose: infra/docker/robot/compose.md
+        - Executando: infra/docker/robot/run.md
+        - Dicas: infra/docker/robot/dicas.md
 
   - Programação:
     - Linguagens:
