@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#jest" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -3144,6 +3149,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sobre
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -3161,6 +3186,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#em-resumo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Em resumo:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-da-pra-fazer-com-o-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 O que dá pra fazer com o Jest:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-simples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Exemplo simples:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#por-que-usar-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Por que usar Jest?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#em-uma-frase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 Em uma frase:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -8143,6 +8242,71 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#em-resumo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Em resumo:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-da-pra-fazer-com-o-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 O que dá pra fazer com o Jest:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-simples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Exemplo simples:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#por-que-usar-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Por que usar Jest?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#em-uma-frase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 Em uma frase:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -8159,9 +8323,43 @@
 
 
 
-  <h1>Sobre</h1>
+<h1 id="jest">Jest</h1>
+<p>O <strong>Jest</strong> é um <strong>framework de testes em JavaScript</strong>, criado pelo Facebook, muito usado principalmente em projetos com <strong>React</strong>, mas que funciona com qualquer aplicação JavaScript (Node.js, front-end, etc.).</p>
+<h3 id="em-resumo">Em resumo:</h3>
+<p>O Jest serve para <strong>testar seu código automaticamente</strong>, garantindo que ele funciona como esperado.</p>
+<hr />
+<h3 id="o-que-da-pra-fazer-com-o-jest">🧪 O que dá pra fazer com o Jest:</h3>
+<ul>
+<li>Criar <strong>testes unitários</strong> (testar funções isoladas)</li>
+<li>Fazer <strong>testes de integração</strong></li>
+<li>Criar <strong>mocks</strong> (simular dependências)</li>
+<li>Verificar se funções foram chamadas</li>
+<li>Medir cobertura de código (quanto do código está sendo testado)</li>
+</ul>
+<hr />
+<h3 id="exemplo-simples">💡 Exemplo simples:</h3>
+<pre><code class="language-javascript">function soma(a, b) {
+  return a + b;
+}
 
-
+test('soma 1 + 2 deve ser 3', () =&gt; {
+  expect(soma(1, 2)).toBe(3);
+});
+</code></pre>
+<hr />
+<h3 id="por-que-usar-jest">⚙️ Por que usar Jest?</h3>
+<ul>
+<li>Fácil de configurar (quase zero configuração)</li>
+<li>Rápido</li>
+<li>Já vem com tudo integrado (runner, assertions, mocks)</li>
+<li>Muito usado no mercado</li>
+</ul>
+<hr />
+<h3 id="em-uma-frase">🧠 Em uma frase:</h3>
+<blockquote>
+<p>Jest é uma ferramenta que automatiza testes para garantir que seu código JavaScript funcione corretamente.</p>
+</blockquote>
+<hr />
 
 
 

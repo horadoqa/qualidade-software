@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#instalar-e-rodar-o-jest-em-um-projeto-javascript-nodejs" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -3171,6 +3176,8 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -8143,6 +8150,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -8159,9 +8168,86 @@
 
 
 
-  <h1>Instalação</h1>
+<h1 id="instalar-e-rodar-o-jest-em-um-projeto-javascript-nodejs">Instalar e rodar o Jest em um projeto JavaScript (Node.js).</h1>
+<hr />
+<h1 id="1-pre-requisitos">📦 1. Pré-requisitos</h1>
+<p>Antes de tudo, você precisa ter:</p>
+<ul>
+<li><strong>Node.js</strong> instalado</li>
+<li><strong>npm</strong> (já vem com o Node)</li>
+</ul>
+<p>Verifique no terminal:</p>
+<pre><code class="language-bash">node -v
+npm -v
+</code></pre>
+<hr />
+<h1 id="2-criar-um-projeto-se-ainda-nao-tiver">🚀 2. Criar um projeto (se ainda não tiver)</h1>
+<pre><code class="language-bash">mkdir meu-projeto
+cd meu-projeto
+npm init -y
+</code></pre>
+<p>Isso cria o arquivo <code>package.json</code>.</p>
+<hr />
+<h1 id="3-instalar-o-jest">🧪 3. Instalar o Jest</h1>
+<p>Instale como dependência de desenvolvimento:</p>
+<pre><code class="language-bash">npm install --save-dev jest
+</code></pre>
+<hr />
+<h1 id="4-configurar-o-script-de-teste">⚙️ 4. Configurar o script de teste</h1>
+<p>Abra o <code>package.json</code> e adicione:</p>
+<pre><code class="language-json">&quot;scripts&quot;: {
+  &quot;test&quot;: &quot;jest&quot;
+}
+</code></pre>
+<p>Ficará algo assim:</p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;meu-projeto&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;scripts&quot;: {
+    &quot;test&quot;: &quot;jest&quot;
+  }
+}
+</code></pre>
+<hr />
+<h1 id="5-criar-um-teste-simples">🧾 5. Criar um teste simples</h1>
+<p>Crie um arquivo, por exemplo:</p>
+<pre><code>soma.js
+</code></pre>
+<pre><code class="language-javascript">function soma(a, b) {
+  return a + b;
+}
 
+module.exports = soma;
+</code></pre>
+<p>Agora o teste:</p>
+<pre><code>soma.test.js
+</code></pre>
+<pre><code class="language-javascript">const soma = require('./soma');
 
+test('soma 2 + 3 deve ser 5', () =&gt; {
+  expect(soma(2, 3)).toBe(5);
+});
+</code></pre>
+<hr />
+<h1 id="6-rodar-os-testes">▶️ 6. Rodar os testes</h1>
+<p>No terminal:</p>
+<pre><code class="language-bash">npm test
+</code></pre>
+<p>ou:</p>
+<pre><code class="language-bash">npx jest
+</code></pre>
+<hr />
+<h1 id="resultado-esperado">✅ Resultado esperado</h1>
+<p>Se estiver tudo certo, você verá algo como:</p>
+<pre><code>PASS  soma.test.js
+✓ soma 2 + 3 deve ser 5
+</code></pre>
+<hr />
+<h1 id="dica-importante">💡 Dica importante</h1>
+<p>Se quiser rodar testes automaticamente enquanto você altera arquivos:</p>
+<pre><code class="language-bash">npx jest --watch
+</code></pre>
+<hr />
 
 
 
