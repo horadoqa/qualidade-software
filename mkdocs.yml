@@ -12,10 +12,26 @@ nav:
       - Plano de Teste: testes/desafios/plano-teste.md
 
   - Metodologias Ageis:
-    - Sobre: metodologias/index.md
-    - Scrum: metodologias/scrum.md
-    - Kanban: metodologias/kanban.md
-    - Waterfall: metodologias/waterfall.md
+    - Sobre: ageis/sobre.md
+    - Manifesto Ágil: ageis/manifesto.md
+    - Principios Ágeis: ageis/principios.md
+    
+    - Scrum: ageis/scrum.md
+    - Cenários:
+      - Todo List: ageis/scrum/exemplo.md
+    
+    - Kanban: ageis/kanban.md
+    - Cenários:
+      - Todo List: ageis/kanban/exemplo.md
+    
+    - Comparação Scrum X Kanban: ageis/comparacao.md
+    
+    - Ferramentas:
+      - Jira: ageis/tools/jira.md
+      - Trello: ageis/tools/trello.md
+      - Azure DevOps: ageis/tools/azure.md
+      - ClickUp: ageis/tools/clickup.md
+      - Comparação: ageis/tools/comparacao.md
 
   - Banco de Dados:
     - Sobre: banco/index.md
