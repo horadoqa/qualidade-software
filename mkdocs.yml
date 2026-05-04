@@ -16,15 +16,18 @@ nav:
     - Manifesto Ágil: ageis/manifesto.md
     - Principios Ágeis: ageis/principios.md
     
-    - Scrum: ageis/scrum.md
-    - Cenários:
-      - Todo List: ageis/scrum/exemplo.md
-    
-    - Kanban: ageis/kanban.md
-    - Cenários:
-      - Todo List: ageis/kanban/exemplo.md
-    
-    - Comparação Scrum X Kanban: ageis/comparacao.md
+    - Frameworks:
+      - Scrum: 
+        - Sobre: ageis/scrum.md
+        - Cenários:
+          - Todo List: ageis/scrum/exemplo.md
+      
+      - Kanban: 
+        - Sobre: ageis/kanban.md
+        - Cenários:
+          - Todo List: ageis/kanban/exemplo.md
+      
+      - Comparação Scrum X Kanban: ageis/comparacao.md
     
     - Ferramentas:
       - Jira: ageis/tools/jira.md
@@ -91,7 +94,7 @@ nav:
       - Testes de Interface: testes/piramide/interface.md
     
     - Testes Unitários:
-      - Sobre: testes/unitarios/index.md
+      - Sobre: testes/unitarios/unitarios.md
       - Ferramentas:
         - Jest:
           - Sobre: testes/unitarios/tools/jest/sobre.md
@@ -264,6 +267,7 @@ nav:
       - Desafio 1: testes/desafios/desafio1.md
       - Desafio 2: testes/desafios/desafio2.md
       - Desafio 3: testes/desafios/desafio3.md
+
 theme:
   name: material
   palette:

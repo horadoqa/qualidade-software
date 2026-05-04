@@ -1,4 +1,4 @@
-# 🌐 Cenário 2
+# 🌐 Projeto: To-Do App (Web)
 
 Você e sua equipe vão desenvolver uma aplicação simples de **lista de tarefas (To-Do App)** em 3 semanas.
 
