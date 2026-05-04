@@ -6,4 +6,4 @@ Em vez de usar interface gráfica (cliques), você digita instruções e o siste
 
 Aqui estão os **principais comandos do Linux**, os mais usados no dia a dia no terminal: [linux](index.html)
 
-[Curso](curso.html)
+Não deixe de fazer o [Curso de Linux](curso.html), com direito a Certificado !
