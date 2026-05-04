@@ -36,7 +36,7 @@ meu-projeto/
 
 ## 📄 `sonar-project.properties`
 
-```properties id="sonar1"
+```properties
 sonar.projectKey=meu_projeto_python
 sonar.projectName=Meu Projeto Python
 sonar.projectVersion=1.0

@@ -272,6 +272,19 @@ nav:
         - Report de Incidente: testes/reports/tipos/incidente.md
         - Report de Teste de Segurança: testes/reports/tipos/seguranca.md
         - Report de Teste de Usabilidade: testes/reports/tipos/usabilidade.md
+      
+      - Frameworks:
+        - Allure: 
+          - Sobre: testes/reports/tools/allure.md
+          - Instalação: testes/reports/tools/allure/install.md
+          - Gerando Report: testes/reports/tools/allure/report.md
+          - Ci/CD: testes/reports/tools/allure/ci.md
+
+        - SonarQube: 
+          - Sobre: testes/reports/tools/sonar.md
+          - Instalação: testes/reports/tools/sonar/install.md
+          - Gerando Report: testes/reports/tools/sonar/report.md
+          - Ci/CD: testes/reports/tools/sonar/ci.md
   
     - Desafios de Teste:
       - Sobre: testes/desafios/index.md

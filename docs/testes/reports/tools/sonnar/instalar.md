@@ -144,3 +144,4 @@ sonar.python.coverage.reportPaths=coverage.xml
 
 ---
 
+Fonte: https://github.com/horadoqa/sonarqube
