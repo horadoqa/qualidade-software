@@ -96,5 +96,3 @@ O ClickUp é:
 
 * 🧭 Página oficial do produto
   [https://clickup.com/](https://clickup.com/)
-
----

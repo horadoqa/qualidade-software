@@ -64,19 +64,3 @@ Se quiser se aprofundar, aqui estão os links oficiais:
 
 * 📖 Visão geral do Jira Software
   [https://confluence.atlassian.com/jirasoftware/jira-software-overview-1688898119.html](https://confluence.atlassian.com/jirasoftware/jira-software-overview-1688898119.html) ([Atlassian][3])
-
----
-
-## 💡 Resumo simples
-
-O Jira é basicamente:
-
-> Um sistema para organizar tarefas e projetos em forma de fluxo, permitindo que equipes saibam exatamente o que fazer, quem está fazendo e em que estágio cada coisa está.
-
----
-
-## 📚 Documentação e links oficiais
-
-[1]: https://www.atlassian.com/software/jira/guides/getting-started?utm_source=chatgpt.com "Get Started with Jira - Comprehensive Beginner's Guide | Atlassian"
-[2]: https://confluence.atlassian.com/jira?utm_source=chatgpt.com "Jira Documentation | Atlassian Support | Atlassian Documentation"
-[3]: https://confluence.atlassian.com/jirasoftware/jira-software-overview-1688898119.html?utm_source=chatgpt.com "Jira Software overview | Atlassian Support | Atlassian Documentation"

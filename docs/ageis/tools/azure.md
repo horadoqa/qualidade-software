@@ -68,8 +68,3 @@ Tudo isso para facilitar o trabalho em equipe e acelerar a entrega de software.
   [https://learn.microsoft.com/pt-br/azure/devops/](https://learn.microsoft.com/pt-br/azure/devops/)
 
 ---
-
-## 📚 Documentação e links oficiais
-
-[1]: https://learn.microsoft.com/pt-br/azure/devops/user-guide/what-is-azure-devops-services?utm_source=chatgpt.com "O que é o Azure DevOps? - Azure DevOps | Microsoft Learn"
-[2]: https://learn.microsoft.com/pt-br/azure/devops/overview?utm_source=chatgpt.com "Documentação do Azure DevOps | Microsoft Learn"

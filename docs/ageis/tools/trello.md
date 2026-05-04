@@ -77,5 +77,3 @@ O Trello é basicamente:
 
 * 🧭 Página principal do produto
   [https://trello.com/](https://trello.com/)
-
----

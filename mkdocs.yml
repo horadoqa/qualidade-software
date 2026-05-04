@@ -18,12 +18,12 @@ nav:
     
     - Frameworks:
       - Scrum: 
-        - Sobre: ageis/frameworks/scrum.md
+        - Sobre: ageis/frameworks/scrum/scrum.md
         - Cenários:
           - Todo List: ageis/frameworks/scrum/exemplo.md
       
       - Kanban: 
-        - Sobre: ageis/frameworks/kanban.md
+        - Sobre: ageis/frameworks/kanban/kanban.md
         - Cenários:
           - Todo List: ageis/frameworks/kanban/exemplo.md
       

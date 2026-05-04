@@ -126,7 +126,3 @@ Estrutura hierárquica:
 * **Trello:** simples e visual, tipo “quadro de post-its digital”
 * **Jira:** robusto e profissional para desenvolvimento de software
 * **ClickUp:** “tudo em um”, mistura Trello + Jira + mais ferramentas
-
----
-
-
