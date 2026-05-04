@@ -3,9 +3,13 @@ nav:
   - Qualidade de Software: index.md
 
   - Sobre o projeto:
-    - serverest.dev: testes/desafios/serverest.md
-    - Diagrama: testes/desafios/diagrama.md
-    - Plano de Teste: testes/desafios/plano-teste.md
+    - Visão Geral: sobre/index.md
+    - Contribuição: sobre/contribuir.md
+    
+    - Plataforma:
+      - serverest.dev: testes/desafios/serverest.md
+      - Diagrama: testes/desafios/diagrama.md
+      - Plano de Teste: testes/desafios/plano-teste.md
 
   - Metodologias Ageis:
     - Sobre: metodologias/index.md
