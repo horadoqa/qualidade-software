@@ -59,12 +59,30 @@ nav:
     - OHMYZSH: linux/ohmyzsh.md
 
   - Infra:
-    - Docker: 
-      - Sobre: infra/docker/docker.md
-      - Comandos: infra/docker/commands.md
-      - Docker Compose: infra/docker/compose.md
-      - Dockerfile: infra/docker/dockerfile.md
-      - Docker Hub: infra/docker/hub.md
+    - Docker:
+      - Introdução:
+        - Sobre: infra/docker/docker.md
+        - Roadmap: infra/docker/roadmap.md
+      
+      - Fundamentos:
+        - Imagens: infra/docker/images.md
+        - Container: infra/docker/container.md
+        - Volumes: infra/docker/volumes.md
+
+      - Ferramentas:  
+        - Docker Desktop: infra/docker/desktop.md
+        - Docker Hub: infra/docker/hub.md
+        - CLI Comandos: infra/docker/commands.md'
+      
+      - Práticas:
+        - Dockerfile: infra/docker/file.md
+        - Docker Compose: infra/docker/compose.md
+        - Exemplos NGINX: infra/docker/nginx.md
+
+      - Avançado:
+        - Deploy: infra/docker/deploy.md
+        - Redes: infra/docker/networks.md
+        - Arquitetura: infra/docker/architecture.md
 
       - Cypress:
         - Sobre: infra/docker/cypress/cypress.md

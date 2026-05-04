@@ -15,7 +15,6 @@ Em vez de rodar vários comandos `docker run`, você descreve tudo em um único 
 ### 📦 Exemplo simples
 
 ```yaml
-version: "3"
 services:
   app:
     build: .

@@ -48,4 +48,4 @@ E rodar com um comando simples no Docker
 * Docker = ferramenta para rodar contêineres
 * Docker Hub = “armazenamento online” dessas imagens
 
-
+---

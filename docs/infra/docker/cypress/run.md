@@ -97,4 +97,4 @@ Esse comando:
 Isso só funciona bem em sistemas Linux ou WSL com X11 configurado.
 No macOS/Windows puro, normalmente você precisaria de alternativas (como XQuartz ou rodar headless).
 
-Se quiser, posso te explicar como rodar isso em Windows ou como adaptar para modo headless (CI).
+---
