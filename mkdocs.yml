@@ -51,7 +51,7 @@ nav:
       - Dicas: banco/nosql/dicas.md
 
   - Linux:
-    - Sobre: linux/index.md
+    - Sobre: linux/linux.md
     - Comandos: linux/commands.md
     - Shell Script: linux/shell.md
     - Dicas: linux/dicas.md
