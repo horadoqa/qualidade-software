@@ -1,0 +1,81 @@
+nome,data_nascimento,sexo,estado_civil,naturalidade,nacionalidade
+João Silva,1971-02-02,Masculino,Solteiro,Rio de Janeiro,Brasileira
+Maria Souza,1972-03-03,Feminino,Casado,São Paulo,Brasileira
+Ana Oliveira,1973-04-04,Feminino,Divorciado,Curitiba,Brasileira
+Carlos Santos,1974-05-05,Masculino,Viúvo,Salvador,Brasileira
+Pedro Lima,1975-06-06,Masculino,Solteiro,Belo Horizonte,Brasileira
+Lucas Pereira,1976-07-07,Masculino,Casado,Recife,Brasileira
+Julia Costa,1977-08-08,Feminino,Divorciado,Porto Alegre,Brasileira
+Mariana Rodrigues,1978-09-09,Feminino,Viúvo,Brasília,Brasileira
+Rafael Alves,1979-10-10,Masculino,Solteiro,Manaus,Brasileira
+Bruno Martins,1980-11-11,Masculino,Casado,Fortaleza,Brasileira
+Sofia Silva,1981-12-12,Feminino,Divorciado,Rio de Janeiro,Brasileira
+Gabriel Souza,1982-01-13,Masculino,Viúvo,São Paulo,Brasileira
+Felipe Oliveira,1983-02-14,Masculino,Solteiro,Curitiba,Brasileira
+Larissa Santos,1984-03-15,Feminino,Casado,Salvador,Brasileira
+Beatriz Lima,1985-04-16,Feminino,Divorciado,Belo Horizonte,Brasileira
+Diego Pereira,1986-05-17,Masculino,Viúvo,Recife,Brasileira
+Amanda Costa,1987-06-18,Feminino,Solteiro,Porto Alegre,Brasileira
+Thiago Rodrigues,1988-07-19,Masculino,Casado,Brasília,Brasileira
+Camila Alves,1989-08-20,Feminino,Divorciado,Manaus,Brasileira
+Ricardo Martins,1990-09-21,Masculino,Viúvo,Fortaleza,Brasileira
+João Silva,1991-10-22,Masculino,Solteiro,Rio de Janeiro,Brasileira
+Maria Souza,1992-11-23,Feminino,Casado,São Paulo,Brasileira
+Ana Oliveira,1993-12-24,Feminino,Divorciado,Curitiba,Brasileira
+Carlos Santos,1994-01-25,Masculino,Viúvo,Salvador,Brasileira
+Pedro Lima,1995-02-26,Masculino,Solteiro,Belo Horizonte,Brasileira
+Lucas Pereira,1996-03-27,Masculino,Casado,Recife,Brasileira
+Julia Costa,1997-04-28,Feminino,Divorciado,Porto Alegre,Brasileira
+Mariana Rodrigues,1998-05-01,Feminino,Viúvo,Brasília,Brasileira
+Rafael Alves,1999-06-02,Masculino,Solteiro,Manaus,Brasileira
+Bruno Martins,1970-07-03,Masculino,Casado,Fortaleza,Brasileira
+Sofia Silva,1971-08-04,Feminino,Divorciado,Rio de Janeiro,Brasileira
+Gabriel Souza,1972-09-05,Masculino,Viúvo,São Paulo,Brasileira
+Felipe Oliveira,1973-10-06,Masculino,Solteiro,Curitiba,Brasileira
+Larissa Santos,1974-11-07,Feminino,Casado,Salvador,Brasileira
+Beatriz Lima,1975-12-08,Feminino,Divorciado,Belo Horizonte,Brasileira
+Diego Pereira,1976-01-09,Masculino,Viúvo,Recife,Brasileira
+Amanda Costa,1977-02-10,Feminino,Solteiro,Porto Alegre,Brasileira
+Thiago Rodrigues,1978-03-11,Masculino,Casado,Brasília,Brasileira
+Camila Alves,1979-04-12,Feminino,Divorciado,Manaus,Brasileira
+Ricardo Martins,1980-05-13,Masculino,Viúvo,Fortaleza,Brasileira
+João Silva,1981-06-14,Masculino,Solteiro,Rio de Janeiro,Brasileira
+Maria Souza,1982-07-15,Feminino,Casado,São Paulo,Brasileira
+Ana Oliveira,1983-08-16,Feminino,Divorciado,Curitiba,Brasileira
+Carlos Santos,1984-09-17,Masculino,Viúvo,Salvador,Brasileira
+Pedro Lima,1985-10-18,Masculino,Solteiro,Belo Horizonte,Brasileira
+Lucas Pereira,1986-11-19,Masculino,Casado,Recife,Brasileira
+Julia Costa,1987-12-20,Feminino,Divorciado,Porto Alegre,Brasileira
+Mariana Rodrigues,1988-01-21,Feminino,Viúvo,Brasília,Brasileira
+Rafael Alves,1989-02-22,Masculino,Solteiro,Manaus,Brasileira
+Bruno Martins,1990-03-23,Masculino,Casado,Fortaleza,Brasileira
+Sofia Silva,1991-04-24,Feminino,Divorciado,Rio de Janeiro,Brasileira
+Gabriel Souza,1992-05-25,Masculino,Viúvo,São Paulo,Brasileira
+Felipe Oliveira,1993-06-26,Masculino,Solteiro,Curitiba,Brasileira
+Larissa Santos,1994-07-27,Feminino,Casado,Salvador,Brasileira
+Beatriz Lima,1995-08-28,Feminino,Divorciado,Belo Horizonte,Brasileira
+Diego Pereira,1996-09-01,Masculino,Viúvo,Recife,Brasileira
+Amanda Costa,1997-10-02,Feminino,Solteiro,Porto Alegre,Brasileira
+Thiago Rodrigues,1998-11-03,Masculino,Casado,Brasília,Brasileira
+Camila Alves,1999-12-04,Feminino,Divorciado,Manaus,Brasileira
+Ricardo Martins,1970-01-05,Masculino,Viúvo,Fortaleza,Brasileira
+João Silva,1971-02-06,Masculino,Solteiro,Rio de Janeiro,Brasileira
+Maria Souza,1972-03-07,Feminino,Casado,São Paulo,Brasileira
+Ana Oliveira,1973-04-08,Feminino,Divorciado,Curitiba,Brasileira
+Carlos Santos,1974-05-09,Masculino,Viúvo,Salvador,Brasileira
+Pedro Lima,1975-06-10,Masculino,Solteiro,Belo Horizonte,Brasileira
+Lucas Pereira,1976-07-11,Masculino,Casado,Recife,Brasileira
+Julia Costa,1977-08-12,Feminino,Divorciado,Porto Alegre,Brasileira
+Mariana Rodrigues,1978-09-13,Feminino,Viúvo,Brasília,Brasileira
+Rafael Alves,1979-10-14,Masculino,Solteiro,Manaus,Brasileira
+Bruno Martins,1980-11-15,Masculino,Casado,Fortaleza,Brasileira
+Sofia Silva,1981-12-16,Feminino,Divorciado,Rio de Janeiro,Brasileira
+Gabriel Souza,1982-01-17,Masculino,Viúvo,São Paulo,Brasileira
+Felipe Oliveira,1983-02-18,Masculino,Solteiro,Curitiba,Brasileira
+Larissa Santos,1984-03-19,Feminino,Casado,Salvador,Brasileira
+Beatriz Lima,1985-04-20,Feminino,Divorciado,Belo Horizonte,Brasileira
+Diego Pereira,1986-05-21,Masculino,Viúvo,Recife,Brasileira
+Amanda Costa,1987-06-22,Feminino,Solteiro,Porto Alegre,Brasileira
+Thiago Rodrigues,1988-07-23,Masculino,Casado,Brasília,Brasileira
+Camila Alves,1989-08-24,Feminino,Divorciado,Manaus,Brasileira
+Ricardo Martins,1990-09-25,Masculino,Viúvo,Fortaleza,Brasileira
