@@ -59,8 +59,26 @@ nav:
         - Dicas: banco/tipos/nosql/dicas.md
     
     - Pratica:
-      - MySQL: banco/pratica/mysql.md
-      - MongoDB: banco/pratica/mongodb.md
+      - SQL:
+        - Setup: banco/pratica/sql/setup.md
+        - Conectando: banco/pratica/sql/connect.md
+        - Criando Banco: banco/pratica/sql/create.md
+        - Criando Tabela: banco/pratica/sql/table.md
+        - Inserindo Dados: banco/pratica/sql/insert.md
+        - Listando Dados: banco/pratica/sql/read.md
+        - Modificando Dados: banco/pratica/sql/update.md
+        - Deletando Dados: banco/pratica/sql/delete.md
+
+      - NoSQL:
+        - Setup: banco/pratica/nosql/setup.md
+        - Conectando: banco/pratica/nosql/connect.md
+        - Criando Banco: banco/pratica/nosql/create.md
+        - Criando Coleção: banco/pratica/nosql/collection.md
+        - Inserindo Dados: banco/pratica/nosql/insert.md
+        - Listando Dados: banco/pratica/nosql/read.md
+        - Modificando Dados: banco/pratica/nosql/update.md
+        - Deletando Dados: banco/pratica/nosql/delete.md
+
       - Dicas: banco/pratica/dicas.md
 
   - Linux:
