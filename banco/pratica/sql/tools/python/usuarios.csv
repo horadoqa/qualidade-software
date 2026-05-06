@@ -1,0 +1,101 @@
+nome,data_nascimento,sexo,estado_civil,naturalidade,nacionalidade
+João Silva,1971-02-02,Masculino,Solteiro,Rio de Janeiro,Brasileira
+Maria Souza,1972-03-03,Feminino,Casado,São Paulo,Brasileira
+Ana Oliveira,1973-04-04,Feminino,Divorciado,Curitiba,Brasileira
+Carlos Santos,1974-05-05,Masculino,Viúvo,Salvador,Brasileira
+Pedro Lima,1975-06-06,Masculino,Solteiro,Belo Horizonte,Brasileira
+Lucas Pereira,1976-07-07,Masculino,Casado,Recife,Brasileira
+Julia Costa,1977-08-08,Feminino,Divorciado,Porto Alegre,Brasileira
+Mariana Rodrigues,1978-09-09,Feminino,Viúvo,Brasília,Brasileira
+Rafael Alves,1979-10-10,Masculino,Solteiro,Manaus,Brasileira
+Ana Souza,1990-03-12,F,Solteira,Rio de Janeiro,Brasileira
+Carlos Lima,1985-07-25,M,Casado,São Paulo,Brasileira
+Mariana Alves,1992-11-03,F,Solteira,Belo Horizonte,Brasileira
+João Pereira,1978-01-19,M,Divorciado,Salvador,Brasileira
+Fernanda Rocha,2000-06-30,F,Solteira,Curitiba,Brasileira
+Lucas Martins,1995-09-14,M,Solteiro,Fortaleza,Brasileira
+Patrícia Gomes,1988-12-05,F,Casada,Recife,Brasileira
+Rafael Ribeiro,1993-04-22,M,Solteiro,Porto Alegre,Brasileira
+Juliana Carvalho,1987-08-11,F,Divorciada,Brasília,Brasileira
+Bruno Fernandes,1999-02-27,M,Solteiro,Manaus,Brasileira
+Aline Teixeira,1991-05-18,F,Casada,Goiânia,Brasileira
+Eduardo Costa,1984-10-09,M,Casado,Florianópolis,Brasileira
+Camila Barros,1996-07-01,F,Solteira,Vitória,Brasileira
+Felipe Duarte,1989-03-21,M,Solteiro,Natal,Brasileira
+Larissa Mendes,1998-11-15,F,Solteira,João Pessoa,Brasileira
+Gustavo Nunes,1977-06-08,M,Casado,Teresina,Brasileira
+Beatriz Freitas,1994-01-30,F,Solteira,Aracaju,Brasileira
+Diego Monteiro,1986-09-12,M,Divorciado,Cuiabá,Brasileira
+Renata Farias,1997-02-10,F,Solteira,Campo Grande,Brasileira
+Thiago Batista,1990-12-24,M,Casado,Palmas,Brasileira
+Paula Azevedo,1983-04-17,F,Casada,Rio Branco,Brasileira
+André Cardoso,1992-08-29,M,Solteiro,Macapá,Brasileira
+Simone Correia,1985-05-05,F,Divorciada,Boa Vista,Brasileira
+Marcelo Pacheco,1991-07-19,M,Solteiro,Porto Velho,Brasileira
+Vanessa Tavares,1993-10-11,F,Solteira,São Luís,Brasileira
+Leonardo Vieira,1988-02-02,M,Casado,Maceió,Brasileira
+Priscila Moura,1996-06-14,F,Solteira,Belém,Brasileira
+Daniel Neves,1982-03-27,M,Casado,Campinas,Brasileira
+Carla Rezende,1999-01-09,F,Solteira,Santos,Brasileira
+Rodrigo Peixoto,1987-11-20,M,Divorciado,Sorocaba,Brasileira
+Tatiane Borges,1995-07-07,F,Solteira,Ribeirão Preto,Brasileira
+Igor Macedo,1994-04-01,M,Solteiro,Londrina,Brasileira
+Elaine Cunha,1986-09-23,F,Casada,Maringá,Brasileira
+Victor Sales,1992-12-18,M,Solteiro,Joinville,Brasileira
+Débora Rangel,1998-05-26,F,Solteira,Blumenau,Brasileira
+Henrique Sampaio,1981-06-06,M,Casado,Caxias do Sul,Brasileira
+Mônica Paiva,1990-10-02,F,Divorciada,Pelotas,Brasileira
+Caio Furtado,1997-03-15,M,Solteiro,Uberlândia,Brasileira
+Cláudia Dantas,1989-08-28,F,Casada,Juiz de Fora,Brasileira
+Sérgio Coelho,1983-02-13,M,Casado,Montes Claros,Brasileira
+Cristina Magalhães,1991-11-29,F,Solteira,Petrolina,Brasileira
+Paulo Nogueira,1979-07-04,M,Divorciado,Caruaru,Brasileira
+Sandra Queiroz,1988-01-21,F,Casada,Olinda,Brasileira
+Fábio Guedes,1996-09-30,M,Solteiro,Ilhéus,Brasileira
+Rosana Pires,1993-06-12,F,Solteira,Itabuna,Brasileira
+Márcio Lacerda,1985-03-08,M,Casado,Feira de Santana,Brasileira
+Luciana Braga,1994-12-03,F,Solteira,Vitória da Conquista,Brasileira
+Alberto Chaves,1980-05-25,M,Casado,Juazeiro do Norte,Brasileira
+Daniela Porto,1992-08-16,F,Solteira,Mossoró,Brasileira
+Fernando Reis,1987-10-10,M,Divorciado,Parnamirim,Brasileira
+Helena Ramos,1999-02-22,F,Solteira,Ananindeua,Brasileira
+Otávio Silveira,1995-04-05,M,Solteiro,Marabá,Brasileira
+Adriana Matos,1986-11-17,F,Casada,Santarém,Brasileira
+Bruna Vilela,1993-07-27,F,Solteira,Barra Mansa,Brasileira
+Ricardo Lopes,1982-09-09,M,Casado,Volta Redonda,Brasileira
+Julio Cesar Rocha,1978-01-11,M,Divorciado,Angra dos Reis,Brasileira
+Kelly Santana,1997-06-03,F,Solteira,Resende,Brasileira
+Maurício Pinto,1984-12-29,M,Casado,Itaperuna,Brasileira
+Viviane Duarte,1991-03-14,F,Solteira,Campos dos Goytacazes,Brasileira
+Alexandre Mota,1989-08-01,M,Solteiro,Cabo Frio,Brasileira
+Jéssica Leite,1996-05-20,F,Solteira,Búzios,Brasileira
+Roberto Figueiredo,1983-02-18,M,Casado,Araruama,Brasileira
+Tatiana Freire,1992-10-07,F,Divorciada,Saquarema,Brasileira
+Bruno Pimenta,1998-04-12,M,Solteiro,Magé,Brasileira
+Ariane Guimarães,1995-09-25,F,Solteira,Niterói,Brasileira
+Leandro Bastos,1987-07-31,M,Casado,São Gonçalo,Brasileira
+Natália Moreira,1994-01-06,F,Solteira,Duas Barras,Brasileira
+César Brandão,1981-03-23,M,Casado,Três Rios,Brasileira
+Fabiana Torres,1990-06-11,F,Solteira,Valença,Brasileira
+Douglas Freire,1993-11-08,M,Solteiro,Barra do Piraí,Brasileira
+Lorena Pacheco,1997-08-19,F,Solteira,Vassouras,Brasileira
+Renan Antunes,1988-05-02,M,Casado,Miguel Pereira,Brasileira
+Bianca Teles,1999-02-14,F,Solteira,Paraíba do Sul,Brasileira
+Ivan Corrêa,1986-12-21,M,Divorciado,Paraty,Brasileira
+Silvia Amaral,1991-09-03,F,Casada,Itaguaí,Brasileira
+Rogério Lemos,1984-04-28,M,Casado,Seropédica,Brasileira
+Denise Falcão,1995-07-16,F,Solteira,Japeri,Brasileira
+Hugo Barreto,1989-01-30,M,Solteiro,Queimados,Brasileira
+Elaine Pimentel,1996-03-07,F,Solteira,Belford Roxo,Brasileira
+Vitor Araújo,1992-10-22,M,Solteiro,Nilópolis,Brasileira
+Flávia Cabral,1987-06-09,F,Casada,Mesquita,Brasileira
+Claudio Teixeira,1983-08-26,M,Casado,Duque de Caxias,Brasileira
+Cristiane Soares,1990-11-13,F,Divorciada,Itaboraí,Brasileira
+Elias Nascimento,1979-05-17,M,Casado,Tanguá,Brasileira
+Rita de Cássia,1988-12-02,F,Casada,Rio Bonito,Brasileira
+Pedro Henrique Lopes,1994-04-15,M,Solteiro,Silva Jardim,Brasileira
+Gisele Batista,1997-07-21,F,Solteira,Casimiro de Abreu,Brasileira
+Jonas Ribeiro,1985-09-05,M,Casado,Quissamã,Brasileira
+Carolina Andrade,1993-02-28,F,Solteira,Carapebus,Brasileira
+Elias Nascimento,1979-05-17,M,Casado,Tanguá,Brasileira
+Camila Alves,1989-08-24,Feminino,Divorciado,Manaus,Brasileira

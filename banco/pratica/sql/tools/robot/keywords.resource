@@ -10,8 +10,8 @@ ${DB_USER}      horadoqa
 ${DB_PASSWORD}  1q2w3e4r
 ${DB_HOST}      host.docker.internal
 ${DB_PORT}      5432
-${CSV_FILE}     ${CURDIR}/pessoas.csv
-${TABLE_NAME}   pessoa7
+${CSV_FILE}     ${CURDIR}/usuarios.csv
+${TABLE_NAME}   usuarios
 
 *** Keywords ***
 Criar Tabela

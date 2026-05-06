@@ -13,12 +13,12 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 # Abrir o arquivo CSV
-with open("pessoas.csv", "r", encoding="utf-8") as file:
+with open("usuarios.csv", "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
         sql = """
-        INSERT INTO pessoa2 
+        INSERT INTO usuarios 
         (nome, data_nascimento, sexo, estado_civil, naturalidade, nacionalidade)
         VALUES (%s, %s, %s, %s, %s, %s)
         """
