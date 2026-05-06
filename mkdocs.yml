@@ -48,15 +48,9 @@ nav:
     - Tipos:
       - SQL:
         - Sobre: banco/tipos/sql/sql.md
-        - Instalação: banco/tipos/sql/install.md
-        - Comandos: banco/tipos/sql/commands.md
-        - Dicas: banco/tipos/sql/dicas.md
 
       - NoSQL:
         - Sobre: banco/tipos/nosql/nosql.md
-        - Instalação: banco/tipos/nosql/install.md
-        - Comandos: banco/tipos/nosql/commands.md
-        - Dicas: banco/tipos/nosql/dicas.md
     
     - Pratica:
       - SQL:
