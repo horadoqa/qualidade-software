@@ -36,6 +36,61 @@ nav:
       - ClickUp: ageis/tools/clickup.md
       - Comparação: ageis/tools/comparacao.md
 
+  - Linux:
+      - Sobre: linux/linux.md
+      - Comandos: linux/commands.md
+      - Shell Script: linux/shell.md
+      - Dicas: linux/dicas.md
+      - Linux no Windows com WSL: linux/wsl.md
+      - OHMYZSH: linux/ohmyzsh.md
+  
+  - Infra:
+    - Docker:
+      - Introdução:
+        - Sobre: infra/docker/docker.md
+        - Roadmap: infra/docker/roadmap.md
+      
+      - Fundamentos:
+        - Imagens: infra/docker/images.md
+        - Container: infra/docker/container.md
+        - Volumes: infra/docker/volumes.md
+
+      - Ferramentas:  
+        - Docker Desktop: infra/docker/desktop.md
+        - Docker Hub: infra/docker/hub.md
+        - CLI Comandos: infra/docker/commands.md'
+      
+      - Práticas:
+        - Dockerfile: infra/docker/file.md
+        - Docker Compose: infra/docker/compose.md
+        - Exemplos NGINX: infra/docker/nginx.md
+
+      - Avançado:
+        - Deploy: infra/docker/deploy.md
+        - Redes: infra/docker/networks.md
+        - Arquitetura: infra/docker/architecture.md
+
+      - Cypress:
+        - Sobre: infra/docker/cypress/cypress.md
+        - Dockerfile: infra/docker/cypress/file.md
+        - Docker Compose: infra/docker/cypress/compose.md
+        - Executando: infra/docker/cypress/run.md
+        - Dicas: infra/docker/cypress/dicas.md
+      
+      - Playwright:
+        - Sobre: infra/docker/playwright/playwright.md
+        - Dockerfile: infra/docker/playwright/file.md
+        - Docker Compose: infra/docker/playwright/compose.md
+        - Executando: infra/docker/playwright/run.md
+        - Dicas: infra/docker/playwright/dicas.md
+
+      - Robot Framework:
+        - Sobre: infra/docker/robot/robot.md
+        - Dockerfile: infra/docker/robot/file.md
+        - Docker Compose: infra/docker/robot/compose.md
+        - Executando: infra/docker/robot/run.md
+        - Dicas: infra/docker/robot/dicas.md
+
   - Banco de Dados:
     - Conceitos:
       - Dados: banco/conceitos/dados.md
@@ -88,61 +143,6 @@ nav:
         - Deletando Dados: banco/pratica/nosql/delete.md
 
       - Dicas: banco/pratica/dicas.md
-
-  - Linux:
-    - Sobre: linux/linux.md
-    - Comandos: linux/commands.md
-    - Shell Script: linux/shell.md
-    - Dicas: linux/dicas.md
-    - Linux no Windows com WSL: linux/wsl.md
-    - OHMYZSH: linux/ohmyzsh.md
-
-  - Infra:
-    - Docker:
-      - Introdução:
-        - Sobre: infra/docker/docker.md
-        - Roadmap: infra/docker/roadmap.md
-      
-      - Fundamentos:
-        - Imagens: infra/docker/images.md
-        - Container: infra/docker/container.md
-        - Volumes: infra/docker/volumes.md
-
-      - Ferramentas:  
-        - Docker Desktop: infra/docker/desktop.md
-        - Docker Hub: infra/docker/hub.md
-        - CLI Comandos: infra/docker/commands.md'
-      
-      - Práticas:
-        - Dockerfile: infra/docker/file.md
-        - Docker Compose: infra/docker/compose.md
-        - Exemplos NGINX: infra/docker/nginx.md
-
-      - Avançado:
-        - Deploy: infra/docker/deploy.md
-        - Redes: infra/docker/networks.md
-        - Arquitetura: infra/docker/architecture.md
-
-      - Cypress:
-        - Sobre: infra/docker/cypress/cypress.md
-        - Dockerfile: infra/docker/cypress/file.md
-        - Docker Compose: infra/docker/cypress/compose.md
-        - Executando: infra/docker/cypress/run.md
-        - Dicas: infra/docker/cypress/dicas.md
-      
-      - Playwright:
-        - Sobre: infra/docker/playwright/playwright.md
-        - Dockerfile: infra/docker/playwright/file.md
-        - Docker Compose: infra/docker/playwright/compose.md
-        - Executando: infra/docker/playwright/run.md
-        - Dicas: infra/docker/playwright/dicas.md
-
-      - Robot Framework:
-        - Sobre: infra/docker/robot/robot.md
-        - Dockerfile: infra/docker/robot/file.md
-        - Docker Compose: infra/docker/robot/compose.md
-        - Executando: infra/docker/robot/run.md
-        - Dicas: infra/docker/robot/dicas.md
 
   - Programação:
     - Linguagens:
