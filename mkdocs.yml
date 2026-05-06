@@ -45,6 +45,12 @@ nav:
       - OHMYZSH: linux/ohmyzsh.md
   
   - Infra:
+    - Cloud:
+      - AWS: infra/cloud/aws/aws.md
+      - Azure: infra/cloud/azure/azure.md
+      - Google Cloud: infra/cloud/google/google.md
+      - Comparação: infra/cloud/comparacao.md
+
     - Docker:
       - Introdução:
         - Sobre: infra/docker/docker.md
@@ -90,6 +96,13 @@ nav:
         - Docker Compose: infra/docker/robot/compose.md
         - Executando: infra/docker/robot/run.md
         - Dicas: infra/docker/robot/dicas.md
+    
+    - Kubernetes:
+      - Sobre: infra/kubernetes/kubernetes.md
+      - Conceitos: infra/kubernetes/conceitos.md
+      - Ferramentas: infra/kubernetes/tools.md
+      - Práticas: infra/kubernetes/praticas.md
+      - Avançado: infra/kubernetes/avancado.md
 
   - Banco de Dados:
     - Conceitos:
