@@ -1,133 +1,76 @@
-# 🐳 PostgreSQL
+# Docker compose
 
-Crie um arquivo chamado `docker-compose.yml`:
+O **Docker Compose** é uma ferramenta que faz parte do ecossistema do Docker e serve para **definir e gerenciar aplicações com múltiplos containers** de forma simples.
+
+Em vez de rodar vários comandos separados para iniciar cada container, você descreve tudo em um único arquivo (geralmente chamado `docker-compose.yml`) e o Compose cuida de subir tudo junto.
+
+### 💡 Como funciona na prática
+
+Você cria um arquivo YAML onde define:
+
+* serviços (ex: backend, frontend, banco de dados)
+* imagens Docker
+* portas
+* volumes
+* redes
+
+Exemplo simples:
 
 ```yaml
+version: "3.9"
 services:
-  postgres:
-    image: postgres:15
-    container_name: meu-postgres
-    restart: always
-    environment:
-      POSTGRES_USER: usuario
-      POSTGRES_PASSWORD: senha123
-      POSTGRES_DB: meubanco
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-
-  pgadmin:
-    image: dpage/pgadmin4
-    container_name: meu-pgadmin
-    restart: always
-    environment:
-      PGADMIN_DEFAULT_EMAIL: horadoqa@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: 1q2w3e4r
+  web:
+    image: nginx
     ports:
       - "8080:80"
-    depends_on:
-      - postgres
 
-volumes:
-  postgres_data:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: exemplo
 ```
 
----
-
-# ▶️ Como subir tudo
-
-No terminal, na pasta do arquivo:
+Com isso, basta rodar:
 
 ```bash
-docker-compose up -d
+docker-compose up
 ```
 
-ou (versão nova do Docker):
+E o Compose vai:
 
-```bash
-docker compose up -d
-```
+* baixar as imagens necessárias
+* criar os containers
+* conectar tudo automaticamente
 
 ---
 
-# 🌐 Acessar o pgAdmin
+### 🧠 Por que usar Docker Compose?
 
-Abra no navegador:
+Ele resolve vários problemas comuns:
 
-```
-http://localhost:8080
-```
-
-Login:
-
-* Email: `horadoqa@gmail.com`
-* Senha: `1q2w3e4r`
+* Evita comandos longos e repetitivos
+* Facilita subir ambientes completos (ex: app + banco + cache)
+* Mantém tudo versionado (configuração como código)
+* Ajuda muito em desenvolvimento e testes
 
 ---
 
-# 🔌 Conectar o banco no pgAdmin
+### 📦 Exemplo típico
 
-Dentro do pgAdmin:
+Uma aplicação pode ter:
 
-1. Clique em **"Add New Server"**
+* API (Node.js, Python, etc.)
+* Banco de dados (PostgreSQL)
+* Redis
+* Nginx
 
-2. Aba **General**
-
-   * Name: `Postgres Docker`
-
-3. Aba **Connection**
-
-   * Host: `postgres`  ⚠️ (não é localhost!)
-   * Port: `5432`
-   * Username: `usuario`
-   * Password: `senha123`
+Sem Compose → vários comandos manuais
+Com Compose → um único `docker-compose up`
 
 ---
 
-# 🧠 Por que usar `postgres` como host?
+### 🚀 Resumindo
 
-Porque os containers se comunicam pelo nome do serviço dentro da rede do Docker.
-
----
-
-# 🧪 Testar conexão
-
-Abra o Query Tool e rode:
-
-```sql
-SELECT current_database();
-```
-
----
-
-# 💾 Persistência de dados
-
-O volume `postgres_data` garante que:
-
-* Mesmo se o container parar ou for removido
-* Seus dados continuam salvos
-
----
-
-# ⚡ Dicas úteis
-
-Parar:
-
-```bash
-docker compose down
-```
-
-Ver logs:
-
-```bash
-docker compose logs -f
-```
-
-Resetar tudo (CUIDADO ⚠️):
-
-```bash
-docker compose down -v
-```
+O Docker Compose é como um **orquestrador simples de containers**, ideal para desenvolvimento local e ambientes menores. Ele não substitui ferramentas mais robustas como o Kubernetes, mas é muito mais fácil de usar.
 
 ---

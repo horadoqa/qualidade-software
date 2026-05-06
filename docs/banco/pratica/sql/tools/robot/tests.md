@@ -1,3 +1,24 @@
+# Script de Teste do Robot Framework
+
+O Script é dividido em duas parte:
+
+Arquivo: `insert_dados.robot`
+
+```robot
+*** Settings ***
+Resource    keywords.resource
+
+*** Test Cases ***
+Inserir Pessoas Do CSV No Banco
+    Criar Tabela
+    Inserir Dados
+```
+
+---
+
+Arquivo: `keywords.resource`
+
+```robot
 *** Settings ***
 Library    DatabaseLibrary
 Library    OperatingSystem
@@ -10,8 +31,8 @@ ${DB_USER}      horadoqa
 ${DB_PASSWORD}  1q2w3e4r
 ${DB_HOST}      host.docker.internal
 ${DB_PORT}      5432
-${CSV_FILE}     ${CURDIR}/pessoas.csv
-${TABLE_NAME}   pessoa7
+${CSV_FILE}     ${CURDIR}/usuarios.csv
+${TABLE_NAME}   usuarios
 
 *** Keywords ***
 Criar Tabela
@@ -50,3 +71,14 @@ Inserir Dados
 
     Disconnect From Database
 
+```
+
+Para executar:
+
+```bash
+robot insert_dados.robot
+```
+
+Ou usando a extensão no VSCode: `RobotCode - Robot Framework Support` 
+
+---

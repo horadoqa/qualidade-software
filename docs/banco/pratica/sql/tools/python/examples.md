@@ -1,3 +1,8 @@
+# Inserindo dados no Banco de Dados com Python
+
+Para realizar a inserção de dados no banco utilizamos o seguinte código em python:
+
+```python
 import csv
 import psycopg2
 
@@ -13,12 +18,12 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 # Abrir o arquivo CSV
-with open("pessoas.csv", "r", encoding="utf-8") as file:
+with open("usuarios.csv", "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
         sql = """
-        INSERT INTO pessoa2 
+        INSERT INTO usuarios 
         (nome, data_nascimento, sexo, estado_civil, naturalidade, nacionalidade)
         VALUES (%s, %s, %s, %s, %s, %s)
         """
@@ -42,3 +47,10 @@ print("Importação concluída com sucesso!")
 # Fechar conexão
 cur.close()
 conn.close()
+```
+
+Execute o código:
+
+```Bash
+python3 cadastro.py
+```

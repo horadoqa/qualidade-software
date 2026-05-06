@@ -60,7 +60,7 @@ nav:
     
     - Pratica:
       - SQL:
-        - Setup: banco/pratica/sql/setup.md
+        - Setup: banco/pratica/sql/setup/setup.md
         - Conectando: banco/pratica/sql/connect.md
         - Criando Banco: banco/pratica/sql/create.md
         - Criando Tabela: banco/pratica/sql/table.md
@@ -69,8 +69,22 @@ nav:
         - Modificando Dados: banco/pratica/sql/update.md
         - Deletando Dados: banco/pratica/sql/delete.md
 
+        - Ferramentas:
+          - DBeaver: 
+            - Sobre: banco/pratica/sql/tools/dbeaver/dbeaver.md
+            - Instalação: banco/pratica/sql/tools/dbeaver/install.md
+            - Queries: banco/pratica/sql/tools/dbeaver/queries.md
+          - Python: 
+            - Sobre: banco/pratica/sql/tools/python/python.md
+            - Instalação: banco/pratica/sql/tools/python/install.md
+            - Exemplos: banco/pratica/sql/tools/python/examples.md
+          - Robot Framework: 
+            - Sobre: banco/pratica/sql/tools/robot/robot.md
+            - Instalação: banco/pratica/sql/tools/robot/install.md
+            - Testes: banco/pratica/sql/tools/robot/tests.md
+
       - NoSQL:
-        - Setup: banco/pratica/nosql/setup.md
+        - Setup: banco/pratica/nosql/setup/setup.md
         - Conectando: banco/pratica/nosql/connect.md
         - Criando Banco: banco/pratica/nosql/create.md
         - Criando Coleção: banco/pratica/nosql/collection.md

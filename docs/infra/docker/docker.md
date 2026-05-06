@@ -1,157 +1,98 @@
 # Docker
 
-Docker é uma plataforma que permite criar, empacotar e executar aplicações dentro de “contêineres”.
+O **Docker** é uma plataforma que permite criar, empacotar e executar aplicações dentro de **containers**.
 
-Em termos simples, o Docker resolve um problema comum: “funciona na minha máquina, mas não funciona na sua”. Ele garante que o programa rode igual em qualquer ambiente.
+### 🧱 O que é um container?
 
-### 🧠 Como funciona
+Um container é como uma “caixinha” leve que contém:
 
-* Um **contêiner** é como uma “caixinha” leve que contém:
+* o código da aplicação
+* todas as dependências (bibliotecas, runtimes, etc.)
+* configurações necessárias
 
-  * o código da aplicação
-  * bibliotecas
-  * dependências
-  * configurações
-* Tudo isso roda isolado do resto do sistema.
-
-### 📦 Comparação rápida
-
-* **Sem Docker:** você precisa instalar tudo manualmente (versões, dependências, etc.)
-* **Com Docker:** você roda um único comando e tudo já vem pronto
-
-### ⚙️ Diferença para máquina virtual
-
-* Docker é mais leve que uma máquina virtual
-* Ele compartilha o sistema operacional do host, em vez de criar um sistema inteiro separado
-
-### 💡 Exemplo prático
-
-Imagine que você desenvolveu um site:
-
-* Com Docker: você cria um contêiner com tudo configurado
-* Outra pessoa pode rodar exatamente igual, sem configurar nada
-
-### 🚀 Para que é usado
-
-* Desenvolvimento de software
-* Testes automatizados
-* Deploy (colocar sistemas no ar)
-* Microserviços
+Isso garante que a aplicação funcione **igual em qualquer ambiente** (seja no seu computador, servidor ou nuvem).
 
 ---
 
-# 🚀 Estrutura
+## ⚙️ Como o Docker funciona?
 
+O Docker usa virtualização leve (diferente de máquinas virtuais tradicionais). Em vez de criar um sistema operacional completo, ele compartilha o kernel do sistema hospedeiro.
 
-```
-infra/
-└── docker/
-    ├── Introducao/
-    │   ├── o-que-e-docker.md
-    │   ├── container-vs-imagem.md
-    │   └── roadmap.md
-    │
-    ├── Fundamentos/
-    │   ├── imagens.md
-    │   ├── containers.md
-    │   ├── volumes.md
-    │   └── redes.md
-    │
-    ├── Ferramentas/
-    │   ├── docker-desktop.md
-    │   ├── docker-hub.md
-    │   └── cli-comandos.md
-    │
-    └── Prática/
-        ├── dockerfile.md
-        ├── docker-compose.md
-        ├── exemplos-nginx.md
-        └── exemplos-api.md
-    
+### Componentes principais:
+
+### 1. **Imagem (Image)**
+
+* É o “modelo” do container
+* Contém tudo que a aplicação precisa
+* Ex: uma imagem com Node.js + seu código
+
+👉 Pense como uma receita
+
+---
+
+### 2. **Container**
+
+* É a imagem em execução
+* Você pode iniciar, parar, apagar
+
+👉 Pense como o prato pronto usando a receita
+
+---
+
+### 3. **Dockerfile**
+
+* Um arquivo com instruções para criar a imagem
+* Exemplo simples:
+
+```dockerfile
+FROM node:18
+WORKDIR /app
+COPY . .
+RUN npm install
+CMD ["npm", "start"]
 ```
 
 ---
 
-## 📌 2. Separação por intenção
+### 4. **Docker Engine**
 
-| Categoria   | Conteúdo                              |
-| ----------- | ------------------------------------- |
-| Fundamentos | conceitos (imagem, container, volume) |
-| Ferramentas | Docker Desktop, CLI, Hub              |
-| Prática     | Dockerfile, Compose, exemplos         |
-| Avançado    | deploy, redes, arquitetura            |
+* É o motor que roda os containers
+* Responsável por criar, executar e gerenciar tudo
 
 ---
 
-## 📌 3. Escalabilidade
+## 🔄 Fluxo básico
 
-Você pode crescer sem bagunça:
+1. Você escreve um **Dockerfile**
+2. Cria uma **imagem**
 
-* adicionar Kubernetes depois
-* adicionar CI/CD
-* adicionar projetos reais
+   ```
+   docker build -t minha-app .
+   ```
+3. Roda um **container**
 
----
-
-## 📌 4. Melhor para estudo e revisão
-
-Facilita muito revisar Docker depois, porque cada conceito está isolado.
-
----
-
-# ⚡ Melhorias extras (opcional, mas recomendado)
-
-## 🧩 1. Criar um README principal
-
-```
-infra/docker/README.md
-```
-
-Com:
-
-* visão geral
-* ordem de estudo
-* links para cada módulo
+   ```
+   docker run -p 3000:3000 minha-app
+   ```
 
 ---
 
-## 🧩 2. Padronizar nomes
+## 🚀 Por que usar Docker?
 
-Evite nomes como:
-
-* `file.md`
-* `commands.md`
-
-Prefira:
-
-* `dockerfile.md`
-* `cli-comandos.md`
+* ✔️ Funciona igual em qualquer máquina
+* ✔️ Evita “na minha máquina funciona”
+* ✔️ Facilita deploy
+* ✔️ Isola aplicações
+* ✔️ Mais leve que máquinas virtuais
 
 ---
 
-## 🧩 3. Usar prefixos numéricos
+## 🆚 Docker vs Máquina Virtual
 
-Isso ajuda na ordenação:
-
-```
-01-fundamentos
-02-ferramentas
-03-pratica
-```
+| Docker (Container)     | Máquina Virtual    |
+| ---------------------- | ------------------ |
+| Leve e rápido          | Mais pesada        |
+| Compartilha o SO       | Tem SO próprio     |
+| Inicializa em segundos | Pode levar minutos |
 
 ---
-
-# 📌 Resumo
-
-Sua estrutura atual funciona, mas a versão melhor:
-
-✔ Organiza por nível de aprendizado
-✔ Separa conceitos de prática
-✔ Escala melhor com o tempo
-✔ Facilita manutenção e estudo
-
----
-
-Se quiser, posso te ajudar a dar o próximo passo:
-
-👉 transformar isso em um **material estilo curso completo (com ordem de estudo + exercícios + projetos práticos)**

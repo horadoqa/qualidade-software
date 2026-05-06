@@ -110,13 +110,8 @@ E depois execute seu teste novamente.
 ✔ É instalação/ambiente Python
 ✔ Resolve com:
 
-```bash id="fix010"
+```bash
 python -m pip install robotframework-databaselibrary
 ```
 
 ---
-
-Se quiser, posso te ajudar a:
-
-* configurar um ambiente 100% limpo (venv + Robot + PostgreSQL)
-* ou te mostrar uma versão sem DatabaseLibrary (usando Python direto dentro do Robot, mais estável em alguns casos)
