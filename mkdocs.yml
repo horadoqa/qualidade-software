@@ -161,23 +161,19 @@ nav:
     - Linguagens:
       - Go: 
         - Sobre: programacao/go/sobre.md
-        - Instalação: programacao/go/install.md
-        - Hello World: programacao/go/hello.md
+        - Utilização: programacao/go/uso.md
 
       - JavaScript:
         - Sobre: programacao/javascript/sobre.md
-        - Instalação: programacao/javascript/install.md
-        - Hello World: programacao/javascript/hello.md
+        - Utilização: programacao/javascript/uso.md
        
       - Python: 
         - Sobre: programacao/python/sobre.md
-        - Instalação: programacao/python/install.md
-        - Hello World: programacao/python/hello.md
+        - Utilização: programacao/python/uso.md
 
       - Java: 
         - Sobre: programacao/java/sobre.md
-        - Instalação: programacao/java/install.md
-        - Hello World: programacao/java/hello.md
+        - Utilização: programacao/java/uso.md
 
   - Testes:
     - Pirâmide de Testes:
