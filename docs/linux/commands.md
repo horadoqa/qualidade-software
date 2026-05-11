@@ -4,7 +4,7 @@ Os comandos do Linux servem para você interagir diretamente com o sistema opera
 
 Em vez de usar interface gráfica (cliques), você digita instruções e o sistema executa.
 
-Aqui estão os **principais comandos do Linux**, os mais usados no dia a dia no terminal: [linux](https://marianabsctba.github.io/Linux_Cheat_Sheet/)
+Aqui estão os [principais comandos do Linux](https://marianabsctba.github.io/Linux_Cheat_Sheet/), os mais usados no dia a dia no terminal.
 
 Não deixe de fazer o [Curso de Linux](https://marianabsctba.github.io/Curso_Linux/), com direito a Certificado !
 
