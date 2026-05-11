@@ -11,7 +11,7 @@ Você precisa ter:
 
 Verifique:
 
-```bash id="chk1"
+```bash 
 node -v
 npm -v
 ```
@@ -20,7 +20,7 @@ npm -v
 
 ## 📁 2. Criar um projeto (se precisar)
 
-```bash id="proj1"
+```bash 
 mkdir meu-projeto
 cd meu-projeto
 npm init -y
@@ -32,7 +32,7 @@ npm init -y
 
 Instale como dependência de desenvolvimento:
 
-```bash id="inst1"
+```bash 
 npm install --save-dev mocha
 ```
 

@@ -1,6 +1,6 @@
 # 🎨 Diagrama — Cadastro e Login
 
-```mermaid id="v8k2lm"
+```mermaid 
 flowchart TD
 
 A[Início] --> B[Cadastro]

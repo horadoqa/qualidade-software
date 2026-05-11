@@ -18,7 +18,7 @@ Antes de instalar o Cucumber, você precisa ter:
 
 Verifique:
 
-```bash id="y4k2p9"
+```bash 
 node -v
 ```
 
@@ -28,7 +28,7 @@ node -v
 
 ## 🔹 2. npm ou yarn
 
-```bash id="x8d3m1"
+```bash 
 npm -v
 ```
 
@@ -36,7 +36,7 @@ npm -v
 
 ## 🔹 3. Git (Opcional)
 
-```bash id="c2v9n7"
+```bash 
 git --version
 ```
 
@@ -58,7 +58,7 @@ git --version
 
 ### Passo 2: Verificar instalação
 
-```bash id="f6h1k3"
+```bash 
 node -v
 npm -v
 ```
@@ -67,7 +67,7 @@ npm -v
 
 ### Passo 3: Criar projeto
 
-```bash id="m9p4z2"
+```bash 
 mkdir meu-projeto-cucumber
 cd meu-projeto-cucumber
 npm init -y
@@ -77,7 +77,7 @@ npm init -y
 
 ### Passo 4: Instalar Cucumber
 
-```bash id="q3w7e8"
+```bash 
 npm install @cucumber/cucumber --save-dev
 ```
 
@@ -85,7 +85,7 @@ npm install @cucumber/cucumber --save-dev
 
 ### Passo 5: Verificar instalação
 
-```bash id="n5t8y1"
+```bash 
 npx cucumber-js --version
 ```
 
@@ -101,7 +101,7 @@ npx cucumber-js --version
 
 #### Opção B: Homebrew
 
-```bash id="v2c6x9"
+```bash 
 brew install node
 ```
 
@@ -109,7 +109,7 @@ brew install node
 
 ### Passo 2: Verificar instalação
 
-```bash id="k1s3r7"
+```bash 
 node -v
 npm -v
 ```
@@ -118,7 +118,7 @@ npm -v
 
 ### Passo 3: Criar projeto
 
-```bash id="t4n8b6"
+```bash 
 mkdir meu-projeto-cucumber
 cd meu-projeto-cucumber
 npm init -y
@@ -128,7 +128,7 @@ npm init -y
 
 ### Passo 4: Instalar Cucumber
 
-```bash id="p7q2l5"
+```bash 
 npm install @cucumber/cucumber --save-dev
 ```
 
@@ -136,7 +136,7 @@ npm install @cucumber/cucumber --save-dev
 
 ### Passo 5: Verificar instalação
 
-```bash id="z6x3c1"
+```bash 
 npx cucumber-js --version
 ```
 
@@ -146,7 +146,7 @@ npx cucumber-js --version
 
 ### Passo 1: Instalar Node.js
 
-```bash id="g8f2d4"
+```bash 
 sudo apt update
 sudo apt install -y nodejs npm
 ```
@@ -155,7 +155,7 @@ sudo apt install -y nodejs npm
 
 ### Passo 2: Verificar instalação
 
-```bash id="h3k7m9"
+```bash 
 node -v
 npm -v
 ```
@@ -164,7 +164,7 @@ npm -v
 
 ### Passo 3: Criar projeto
 
-```bash id="j5v1p8"
+```bash 
 mkdir meu-projeto-cucumber
 cd meu-projeto-cucumber
 npm init -y
@@ -174,7 +174,7 @@ npm init -y
 
 ### Passo 4: Instalar Cucumber
 
-```bash id="l9w6r2"
+```bash 
 npm install @cucumber/cucumber --save-dev
 ```
 
@@ -182,7 +182,7 @@ npm install @cucumber/cucumber --save-dev
 
 ### Passo 5: Verificar instalação
 
-```bash id="b4n2x7"
+```bash 
 npx cucumber-js --version
 ```
 
@@ -192,7 +192,7 @@ npx cucumber-js --version
 
 Após configuração inicial, você pode organizar assim:
 
-```id="c7k9t2"
+```
 meu-projeto-cucumber/
   features/
     exemplo.feature
@@ -224,7 +224,7 @@ Feature: Login
 
 # 🚀 Executando Testes
 
-```bash id="s8d1f6"
+```bash 
 npx cucumber-js
 ```
 
@@ -234,7 +234,7 @@ npx cucumber-js
 
 ### 🔸 Comando não encontrado
 
-```bash id="r4m7p3"
+```bash 
 npx cucumber-js
 ```
 
@@ -248,7 +248,7 @@ npx cucumber-js
 
 ### 🔸 Dependências quebradas
 
-```bash id="x1z9q5"
+```bash 
 npm install
 ```
 
@@ -256,7 +256,7 @@ npm install
 
 # 🧪 Verificando instalação
 
-```bash id="e6c3v8"
+```bash 
 npx cucumber-js --help
 ```
 
@@ -264,7 +264,7 @@ npx cucumber-js --help
 
 # 📦 Desinstalação
 
-```bash id="d2w5s9"
+```bash 
 npm uninstall @cucumber/cucumber
 ```
 

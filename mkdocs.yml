@@ -157,6 +157,21 @@ nav:
 
       - Dicas: banco/pratica/dicas.md
 
+  - Git & Github:
+    - Sobre Git: git/git.md
+    - Sobre Github: git/github.md
+    - Comandos: git/commands.md
+    - Branching: git/branching.md
+    - Pull Requests: git/pull_requests.md
+    - Dicas: git/dicas.md
+
+  - Mkdocs:
+    - Sobre: mkdocs/mkdocs.md
+    - Configuração: mkdocs/config.md
+    - Temas: mkdocs/themes.md
+    - Deploy: mkdocs/deploy.md
+    - Dicas: mkdocs/dicas.md
+    
   - Programação:
     - Linguagens:
       - Go: 

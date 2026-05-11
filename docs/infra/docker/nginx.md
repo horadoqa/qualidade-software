@@ -16,7 +16,7 @@ meu-nginx/
 
 # 🐳 Dockerfile básico com NGINX
 
-```dockerfile id="k8xq1n"
+```dockerfile 
 # Imagem base oficial do NGINX
 FROM nginx:latest
 
@@ -37,7 +37,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 # 📄 Exemplo de index.html
 
-```html id="p3m9kq"
+```html 
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,7 +55,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Dentro da pasta do projeto:
 
-```bash id="x9n4ab"
+```bash 
 docker build -t meu-nginx .
 ```
 
@@ -63,7 +63,7 @@ docker build -t meu-nginx .
 
 # ▶️ Como rodar o container
 
-```bash id="v8k2lm"
+```bash 
 docker run -d -p 8080:80 --name nginx-site meu-nginx
 ```
 
@@ -111,7 +111,7 @@ Inicia o NGINX em modo foreground (necessário no Docker).
 
 Se quiser evoluir, você pode adicionar um `nginx.conf`:
 
-```dockerfile id="m7kq9z"
+```dockerfile 
 FROM nginx:latest
 
 COPY ./index.html /usr/share/nginx/html/index.html

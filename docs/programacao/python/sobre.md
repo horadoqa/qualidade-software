@@ -20,7 +20,7 @@ Por isso, ela é muito usada por iniciantes e também por grandes empresas.
 
 O código Python é curto e direto:
 
-```python id="p1"
+```python 
 print("Olá mundo")
 ```
 
@@ -36,7 +36,7 @@ Python não precisa ser compilado manualmente. O código é executado linha por 
 
 Você não precisa declarar tipos:
 
-```python id="p2"
+```python 
 x = 10
 x = "texto"
 ```
@@ -98,7 +98,7 @@ Python tem um ecossistema enorme:
 
 # Exemplo simples de Python
 
-```python id="p3"
+```python 
 name = "Emy"
 age = 27
 

@@ -17,7 +17,7 @@ Pense assim:
 
 Sem índice:
 
-```sql id="i1"
+```sql 
 SELECT * FROM usuarios WHERE email = 'joao@email.com';
 ```
 
@@ -32,7 +32,7 @@ Com índice:
 
 # 🧱 Exemplo de criação de índice
 
-```sql id="i2"
+```sql 
 CREATE INDEX idx_email ON usuarios(email);
 ```
 

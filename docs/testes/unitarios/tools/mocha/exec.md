@@ -2,7 +2,7 @@
 
 ## Opção 1: direto com npx
 
-```bash id="run1"
+```bash 
 npx mocha
 ```
 
@@ -12,7 +12,7 @@ npx mocha
 
 Adicione:
 
-```json id="pkg1"
+```json 
 "scripts": {
   "test": "mocha"
 }
@@ -20,7 +20,7 @@ Adicione:
 
 Agora rode:
 
-```bash id="run2"
+```bash 
 npm test
 ```
 
@@ -30,7 +30,7 @@ npm test
 
 Se estiver tudo certo:
 
-```text id="out1"
+```text 
   Função soma
     ✓ deve somar 2 + 3 e retornar 5
 

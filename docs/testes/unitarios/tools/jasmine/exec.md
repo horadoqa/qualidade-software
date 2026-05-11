@@ -1,12 +1,12 @@
 # ▶️ Executar os testes
 
-```bash id="run1"
+```bash 
 npx jasmine
 ```
 
 Ou via script no `package.json`:
 
-```json id="pkg1"
+```json 
 "scripts": {
   "test": "jasmine"
 }
@@ -14,7 +14,7 @@ Ou via script no `package.json`:
 
 Agora rode:
 
-```bash id="run2"
+```bash 
 npm test
 ```
 
@@ -22,7 +22,7 @@ npm test
 
 ## ✅ Resultado esperado
 
-```text id="out1"
+```text 
 Started
 .
 

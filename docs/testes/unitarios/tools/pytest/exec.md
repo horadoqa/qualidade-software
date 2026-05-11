@@ -2,13 +2,13 @@
 
 Dentro da pasta do projeto, rode:
 
-```bash id="run1"
+```bash 
 pytest
 ```
 
 Ou:
 
-```bash id="run2"
+```bash 
 python -m pytest
 ```
 

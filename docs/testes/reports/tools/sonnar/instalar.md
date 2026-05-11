@@ -18,7 +18,7 @@ Antes de tudo, você precisa ter:
 
 ## Opção com Docker (recomendado)
 
-```bash id="sonar1"
+```bash 
 docker run -d --name sonarqube -p 9000:9000 sonarqube:lts
 ```
 
@@ -41,7 +41,7 @@ Instale o **SonarScanner**:
 
 ## Linux/macOS
 
-```bash id="sonar2"
+```bash 
 brew install sonar-scanner
 ```
 
@@ -60,7 +60,7 @@ Na raiz do seu projeto Python, crie um arquivo:
 
 ## 📄 `sonar-project.properties`
 
-```properties id="sonar3"
+```properties 
 sonar.projectKey=meu_projeto_python
 sonar.projectName=Meu Projeto Python
 sonar.projectVersion=1.0
@@ -88,7 +88,7 @@ No painel:
 
 No terminal, dentro do projeto:
 
-```bash id="sonar4"
+```bash 
 sonar-scanner
 ```
 
@@ -115,19 +115,19 @@ Você verá:
 
 Para cobertura de testes:
 
-```bash id="sonar5"
+```bash 
 pip install pytest pytest-cov
 ```
 
 Rodar testes:
 
-```bash id="sonar6"
+```bash 
 pytest --cov=. --cov-report=xml
 ```
 
 E adicionar no `sonar-project.properties`:
 
-```properties id="sonar7"
+```properties 
 sonar.python.coverage.reportPaths=coverage.xml
 ```
 

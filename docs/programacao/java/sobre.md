@@ -24,7 +24,7 @@ O código Java é escrito em arquivos `.java`.
 
 Exemplo:
 
-```java id="l9m5s2"
+```java 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Olá mundo");
@@ -34,7 +34,7 @@ public class Main {
 
 Depois ele é compilado:
 
-```bash id="w4q7r2"
+```bash 
 javac Main.java
 ```
 
@@ -42,7 +42,7 @@ Isso gera um arquivo `.class` com bytecode.
 
 A JVM executa esse bytecode:
 
-```bash id="r8m2x5"
+```bash 
 java Main
 ```
 
@@ -79,7 +79,7 @@ Java roda em:
 
 Toda variável precisa de tipo:
 
-```java id="7m5x2r"
+```java 
 int idade = 20;
 String nome = "Emy";
 ```

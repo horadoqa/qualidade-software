@@ -33,7 +33,7 @@ Com Node.js, JavaScript também pode rodar no servidor.
 
 # Exemplo simples
 
-```javascript id="js1"
+```javascript 
 console.log("Olá mundo")
 ```
 
@@ -49,7 +49,7 @@ O código é executado diretamente pelo navegador ou Node.js.
 
 Você não precisa definir tipos:
 
-```javascript id="js2"
+```javascript 
 let x = 10
 x = "texto"
 ```

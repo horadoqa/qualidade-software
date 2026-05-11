@@ -29,7 +29,7 @@ O Terraform pode criar e controlar:
 
 ## 📄 Exemplo simples
 
-```hcl id="tf1ex"
+```hcl 
 resource "aws_instance" "exemplo" {
   ami           = "ami-123456"
   instance_type = "t2.micro"

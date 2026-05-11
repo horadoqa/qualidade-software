@@ -26,7 +26,7 @@ O Docker é composto principalmente por:
 
 Exemplo:
 
-```bash id="cli1"
+```bash 
 docker run nginx
 ```
 

@@ -28,7 +28,7 @@ Ele é uma versão mais moderna e poderosa do vi, com mais recursos.
 
 ## ⚙️ Como abrir um arquivo
 
-```bash id="q8x9kd"
+```bash 
 vim arquivo.txt
 ```
 
@@ -46,7 +46,7 @@ O vim não funciona como um editor normal. Ele tem **modos**:
 
 * Pressione:
 
-```bash id="3v1m0p"
+```bash 
 i
 ```
 
@@ -54,7 +54,7 @@ i
 
 * Pressione:
 
-```bash id="7x2lqp"
+```bash 
 :
 ```
 
@@ -66,25 +66,25 @@ Dentro do vim:
 
 * Salvar:
 
-```bash id="a1k9lm"
+```bash 
 :w
 ```
 
 * Sair:
 
-```bash id="v8t3qn"
+```bash 
 :q
 ```
 
 * Salvar e sair:
 
-```bash id="m2p7xz"
+```bash 
 :wq
 ```
 
 * Sair sem salvar:
 
-```bash id="h6r9tw"
+```bash 
 :q!
 ```
 

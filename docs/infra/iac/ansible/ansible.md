@@ -30,7 +30,7 @@ O Ansible funciona de forma **simples e sem agente**:
 
 ## 📄 Exemplo de Playbook (simples)
 
-```yaml id="ans1ex"
+```yaml 
 - name: Instalar Nginx
   hosts: servidores
   become: yes

@@ -44,7 +44,7 @@ Imagine que você tem um site com NGINX:
 
 ### 1. Criar imagem
 
-```bash id="d1k9ab"
+```bash 
 docker build -t meu-site .
 ```
 
@@ -52,7 +52,7 @@ docker build -t meu-site .
 
 ### 2. Rodar em produção (deploy simples)
 
-```bash id="x8m2we"
+```bash 
 docker run -d -p 80:80 meu-site
 ```
 
@@ -92,13 +92,13 @@ Fluxo:
 
 1. enviar imagem:
 
-```bash id="hub1"
+```bash 
 docker push usuario/minha-imagem
 ```
 
 2. puxar no servidor:
 
-```bash id="hub2"
+```bash 
 docker pull usuario/minha-imagem
 ```
 
@@ -120,7 +120,7 @@ docker pull usuario/minha-imagem
 
 Em produção você normalmente faz:
 
-```bash id="prod1"
+```bash 
 docker run -d \
   -p 80:80 \
   --restart always \

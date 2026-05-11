@@ -24,7 +24,7 @@ Pense assim:
 
 Quando você executa:
 
-```bash id="c1k8xq"
+```bash 
 docker run nginx
 ```
 

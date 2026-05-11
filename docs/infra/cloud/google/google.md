@@ -34,7 +34,7 @@ Tudo isso usando comandos no terminal.
 
 ## 💻 Exemplo de uso
 
-```bash id="gcloud1"
+```bash 
 gcloud compute instances create minha-vm
 ```
 
@@ -42,7 +42,7 @@ Esse comando cria uma máquina virtual na Google Cloud.
 
 Outro exemplo:
 
-```bash id="gcloud2"
+```bash 
 gcloud auth login
 ```
 

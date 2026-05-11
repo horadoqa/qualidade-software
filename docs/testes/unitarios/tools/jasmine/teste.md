@@ -2,7 +2,7 @@
 
 ## 📌 soma.js
 
-```javascript id="code1"
+```javascript 
 function soma(a, b) {
   return a + b;
 }
@@ -18,7 +18,7 @@ Crie um arquivo dentro da pasta `spec/`:
 
 ### 📌 spec/somaSpec.js
 
-```javascript id="code2"
+```javascript 
 const soma = require('../soma');
 
 describe("Função soma", function() {

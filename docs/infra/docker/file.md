@@ -33,7 +33,7 @@ Pense assim:
 
 Quando você executa:
 
-```bash id="f8k3ab"
+```bash 
 docker build .
 ```
 
@@ -47,7 +47,7 @@ O Docker:
 
 # 🧱 Exemplo simples de Dockerfile
 
-```dockerfile id="k9m2zx"
+```dockerfile 
 FROM nginx:latest
 
 COPY ./index.html /usr/share/nginx/html/index.html

@@ -33,7 +33,7 @@
 
 ### 🔵 gcloud
 
-```bash id="g1"
+```bash 
 gcloud compute instances create vm-exemplo
 ```
 
@@ -43,7 +43,7 @@ Cria uma máquina virtual na Google Cloud.
 
 ### 🟠 AWS CLI
 
-```bash id="a1"
+```bash 
 aws ec2 run-instances --image-id ami-123456
 ```
 
@@ -53,7 +53,7 @@ Cria uma máquina virtual na AWS (EC2).
 
 ### 🔷 Azure CLI
 
-```bash id="z1"
+```bash 
 az vm create --name vm-exemplo
 ```
 

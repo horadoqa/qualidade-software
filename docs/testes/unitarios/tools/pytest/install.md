@@ -11,7 +11,7 @@ Você precisa ter:
 
 Verifique no terminal:
 
-```bash id="chk1"
+```bash 
 python --version
 pip --version
 ```
@@ -22,13 +22,13 @@ pip --version
 
 No terminal, execute:
 
-```bash id="inst1"
+```bash 
 pip install pytest
 ```
 
 Se estiver usando Python 3 em alguns sistemas:
 
-```bash id="inst2"
+```bash 
 pip3 install pytest
 ```
 

@@ -20,7 +20,7 @@ playwright-docker/
 
 ### `app/server.js`
 
-```js id="k8x2m1"
+```js 
 const express = require('express');
 const app = express();
 
@@ -35,7 +35,7 @@ app.listen(3000, () => {
 
 ### `app/package.json`
 
-```json id="l0p9q2"
+```json 
 {
   "name": "app",
   "version": "1.0.0",
@@ -52,7 +52,7 @@ app.listen(3000, () => {
 
 ### `tests/example.spec.ts`
 
-```ts id="v3z7d9"
+```ts 
 import { test, expect } from '@playwright/test';
 
 test('homepage should have text', async ({ page }) => {
@@ -67,7 +67,7 @@ test('homepage should have text', async ({ page }) => {
 
 ### `playwright.config.ts`
 
-```ts id="p8f4t1"
+```ts 
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
@@ -82,7 +82,7 @@ export default defineConfig({
 
 # 📦 4. package.json (raiz)
 
-```json id="n2x6c4"
+```json 
 {
   "name": "playwright-docker",
   "version": "1.0.0",
@@ -99,7 +99,7 @@ export default defineConfig({
 
 # 🐳 5. Dockerfile (tests)
 
-```Dockerfile id="g6m1y3"
+```Dockerfile 
 FROM mcr.microsoft.com/playwright:v1.43.0-jammy
 
 WORKDIR /app
@@ -116,7 +116,7 @@ CMD ["npx", "playwright", "test"]
 
 # 🔗 6. docker-compose (app + testes)
 
-```yaml id="z9q2w8"
+```yaml 
 version: '3.8'
 
 services:
@@ -141,7 +141,7 @@ services:
 
 # ▶️ Rodar tudo
 
-```bash id="r7u3k2"
+```bash 
 docker-compose up --build --exit-code-from tests
 ```
 
@@ -151,7 +151,7 @@ docker-compose up --build --exit-code-from tests
 
 ### `.github/workflows/ci.yml`
 
-```yaml id="m4t8x5"
+```yaml 
 name: Playwright Tests
 
 on:

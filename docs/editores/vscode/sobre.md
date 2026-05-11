@@ -23,7 +23,7 @@ Ele mostra na própria tela os comandos disponíveis, então você não precisa 
 
 ## ⚙️ Como abrir um arquivo
 
-```bash id="nano_open"
+```bash 
 nano arquivo.txt
 ```
 

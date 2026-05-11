@@ -18,7 +18,7 @@ A sintaxe do Go é limpa e enxuta, parecida com C, mas muito mais moderna.
 
 Exemplo:
 
-```go id="57t7v8"
+```go 
 package main
 
 import "fmt"

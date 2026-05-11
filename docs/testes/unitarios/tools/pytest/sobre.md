@@ -29,14 +29,14 @@ Ele é popular porque é:
 
 ### Código:
 
-```python id="py1"
+```python 
 def soma(a, b):
     return a + b
 ```
 
 ### Teste com pytest:
 
-```python id="py2"
+```python 
 def test_soma():
     assert soma(2, 3) == 5
 ```
@@ -47,7 +47,7 @@ def test_soma():
 
 No terminal, basta executar:
 
-```bash id="py3"
+```bash 
 pytest
 ```
 
@@ -62,7 +62,7 @@ Ele automaticamente procura arquivos de teste como:
 
 Se não estiver instalado:
 
-```bash id="py4"
+```bash 
 pip install pytest
 ```
 

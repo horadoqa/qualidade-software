@@ -67,7 +67,7 @@ teste.robot
 
 E coloque:
 
-```robot id="rf1"
+```robot 
 *** Test Cases ***
 Teste Simples
     Log    Olá, Robot Framework funcionando!

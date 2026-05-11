@@ -18,7 +18,7 @@ O Playwright roda sobre Node.js.
 
 Verifique:
 
-```bash id="p9k3v1"
+```bash
 node -v
 ```
 
@@ -30,7 +30,7 @@ node -v
 
 O npm já vem com o Node.js.
 
-```bash id="z4d8k2"
+```bash
 npm -v
 ```
 
@@ -38,7 +38,7 @@ npm -v
 
 ## 🔹 3. Git (Opcional)
 
-```bash id="n7s2l5"
+```bash
 git --version
 ```
 
@@ -60,7 +60,7 @@ git --version
 
 ### Passo 2: Verificar instalação
 
-```bash id="x3c9p1"
+```bash
 node -v
 npm -v
 ```
@@ -69,7 +69,7 @@ npm -v
 
 ### Passo 3: Criar projeto
 
-```bash id="a6j4w8"
+```bash
 mkdir meu-projeto-playwright
 cd meu-projeto-playwright
 npm init -y
@@ -79,7 +79,7 @@ npm init -y
 
 ### Passo 4: Instalar Playwright
 
-```bash id="k2m8r0"
+```bash
 npm init playwright@latest
 ```
 
@@ -93,7 +93,7 @@ Esse comando:
 
 ### Passo 5: Instalar navegadores (caso necessário)
 
-```bash id="s8f2l9"
+```bash
 npx playwright install
 ```
 
@@ -101,7 +101,7 @@ npx playwright install
 
 ### Passo 6: Executar testes
 
-```bash id="d7v1x3"
+```bash
 npx playwright test
 ```
 
@@ -117,7 +117,7 @@ npx playwright test
 
 #### Opção B: Homebrew
 
-```bash id="m5t2b7"
+```bash
 brew install node
 ```
 
@@ -125,7 +125,7 @@ brew install node
 
 ### Passo 2: Verificar instalação
 
-```bash id="r8q3z6"
+```bash
 node -v
 npm -v
 ```
@@ -134,7 +134,7 @@ npm -v
 
 ### Passo 3: Criar projeto
 
-```bash id="p1n7k4"
+```bash
 mkdir meu-projeto-playwright
 cd meu-projeto-playwright
 npm init -y
@@ -144,7 +144,7 @@ npm init -y
 
 ### Passo 4: Instalar Playwright
 
-```bash id="y3w6h8"
+```bash
 npm init playwright@latest
 ```
 
@@ -152,7 +152,7 @@ npm init playwright@latest
 
 ### Passo 5: Instalar navegadores
 
-```bash id="u9c5d2"
+```bash
 npx playwright install
 ```
 
@@ -160,7 +160,7 @@ npx playwright install
 
 ### Passo 6: Executar testes
 
-```bash id="q4b8n1"
+```bash
 npx playwright test
 ```
 
@@ -170,7 +170,7 @@ npx playwright test
 
 ### Passo 1: Instalar Node.js
 
-```bash id="l2v9s6"
+```bash
 sudo apt update
 sudo apt install -y nodejs npm
 ```
@@ -179,7 +179,7 @@ sudo apt install -y nodejs npm
 
 ### Passo 2: Verificar instalação
 
-```bash id="g5f3p8"
+```bash
 node -v
 npm -v
 ```
@@ -188,7 +188,7 @@ npm -v
 
 ### Passo 3: Criar projeto
 
-```bash id="t8r1k2"
+```bash
 mkdir meu-projeto-playwright
 cd meu-projeto-playwright
 npm init -y
@@ -198,7 +198,7 @@ npm init -y
 
 ### Passo 4: Instalar Playwright
 
-```bash id="e6d4y9"
+```bash
 npm init playwright@latest
 ```
 
@@ -206,7 +206,7 @@ npm init playwright@latest
 
 ### Passo 5: Instalar dependências do sistema
 
-```bash id="h7m3x1"
+```bash
 sudo npx playwright install-deps
 ```
 
@@ -214,7 +214,7 @@ sudo npx playwright install-deps
 
 ### Passo 6: Instalar navegadores
 
-```bash id="c2p9v4"
+```bash
 npx playwright install
 ```
 
@@ -222,7 +222,7 @@ npx playwright install
 
 ### Passo 7: Executar testes
 
-```bash id="w1k8z5"
+```bash
 npx playwright test
 ```
 
@@ -244,7 +244,7 @@ Por padrão, o Playwright executa testes em modo headless.
 
 Para rodar com interface:
 
-```bash id="b9x6q2"
+```bash
 npx playwright test --headed
 ```
 
@@ -254,7 +254,7 @@ npx playwright test --headed
 
 Após a instalação:
 
-```id="f3p8z7"
+```
 tests/
 playwright.config.js
 package.json
@@ -266,7 +266,7 @@ package.json
 
 Executar com relatório HTML:
 
-```bash id="s4n2y6"
+```bash
 npx playwright show-report
 ```
 
@@ -278,7 +278,7 @@ npx playwright show-report
 
 * Execute:
 
-```bash id="u5t1j9"
+```bash
 sudo npx playwright install-deps
 ```
 
@@ -286,7 +286,7 @@ sudo npx playwright install-deps
 
 ### 🔸 Navegadores não instalados
 
-```bash id="k8w3v2"
+```bash
 npx playwright install
 ```
 
@@ -294,7 +294,7 @@ npx playwright install
 
 ### 🔸 Permissões (Mac/Linux)
 
-```bash id="d2r7m5"
+```bash
 sudo chown -R $(whoami) ~/.cache/ms-playwright
 ```
 
@@ -302,7 +302,7 @@ sudo chown -R $(whoami) ~/.cache/ms-playwright
 
 # 🧪 Verificando instalação
 
-```bash id="p7y4n8"
+```bash
 npx playwright --version
 ```
 
@@ -310,7 +310,7 @@ npx playwright --version
 
 # 📦 Desinstalação
 
-```bash id="z6x1c3"
+```bash
 npm uninstall @playwright/test
 ```
 

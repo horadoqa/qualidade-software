@@ -37,7 +37,7 @@ Mas ele **não inclui asserções (checks)** nem mocks por padrão.
 
 ### Código:
 
-```javascript id="m1"
+```javascript 
 function soma(a, b) {
   return a + b;
 }
@@ -49,7 +49,7 @@ module.exports = soma;
 
 ### Teste com Mocha + Chai:
 
-```javascript id="m2"
+```javascript 
 const soma = require('./soma');
 const { expect } = require('chai');
 
@@ -66,19 +66,19 @@ describe('Função soma', () => {
 
 Instale o Mocha:
 
-```bash id="m3"
+```bash 
 npm install --save-dev mocha
 ```
 
 Depois rode:
 
-```bash id="m4"
+```bash 
 npx mocha
 ```
 
 Ou configure no `package.json`:
 
-```json id="m5"
+```json 
 "scripts": {
   "test": "mocha"
 }
@@ -86,7 +86,7 @@ Ou configure no `package.json`:
 
 E execute:
 
-```bash id="m6"
+```bash 
 npm test
 ```
 

@@ -2,13 +2,13 @@
 
 ## Rodar testes com mais detalhes:
 
-```bash id="tip1"
+```bash 
 npx mocha --reporter spec
 ```
 
 ## Rodar apenas arquivos de teste:
 
-```bash id="tip2"
+```bash 
 npx mocha test/*.test.js
 ```
 

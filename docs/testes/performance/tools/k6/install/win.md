@@ -30,7 +30,7 @@ O **Chocolatey** é um gerenciador de pacotes que facilita a instalação de sof
 
 Cole o comando abaixo no PowerShell:
 
-```powershell id="choco01"
+```powershell 
 Set-ExecutionPolicy Bypass -Scope Process -Force; `
 [System.Net.ServicePointManager]::SecurityProtocol = `
 [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `

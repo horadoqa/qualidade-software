@@ -28,7 +28,7 @@ O Jasmine usa uma sintaxe baseada em comportamento:
 
 ## 💡 Exemplo simples
 
-```javascript id="j1"
+```javascript 
 function soma(a, b) {
   return a + b;
 }
@@ -36,7 +36,7 @@ function soma(a, b) {
 
 ### Teste com Jasmine:
 
-```javascript id="j2"
+```javascript 
 describe("Função soma", function() {
   it("deve somar 2 + 3 e retornar 5", function() {
     expect(soma(2, 3)).toBe(5);
@@ -50,7 +50,7 @@ describe("Função soma", function() {
 
 ## 📦 1. Instalar o Jasmine
 
-```bash id="j3"
+```bash 
 npm install --save-dev jasmine
 ```
 
@@ -58,7 +58,7 @@ npm install --save-dev jasmine
 
 ## ⚙️ 2. Inicializar o projeto
 
-```bash id="j4"
+```bash 
 npx jasmine init
 ```
 
@@ -70,13 +70,13 @@ Isso cria a estrutura de testes automaticamente.
 
 Os testes ficam na pasta:
 
-```text id="j5"
+```text 
 spec/
 ```
 
 Exemplo:
 
-```javascript id="j6"
+```javascript 
 spec/somaSpec.js
 ```
 
@@ -84,13 +84,13 @@ spec/somaSpec.js
 
 ## ▶️ 4. Rodar os testes
 
-```bash id="j7"
+```bash 
 npx jasmine
 ```
 
 Ou via script no `package.json`:
 
-```json id="j8"
+```json 
 "scripts": {
   "test": "jasmine"
 }
@@ -98,7 +98,7 @@ Ou via script no `package.json`:
 
 E depois:
 
-```bash id="j9"
+```bash 
 npm test
 ```
 

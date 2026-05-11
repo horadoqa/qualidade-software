@@ -2,7 +2,7 @@
 
 ## 📌 soma.js
 
-```javascript id="code1"
+```javascript 
 function soma(a, b) {
   return a + b;
 }
@@ -16,7 +16,7 @@ module.exports = soma;
 
 Crie uma pasta `test` e dentro:
 
-```javascript id="code2"
+```javascript 
 const soma = require('../soma');
 const assert = require('assert');
 

@@ -47,7 +47,7 @@ Imagine um banco de dados como o PostgreSQL rodando em container:
 
 ## 📌 1. Criar volume
 
-```bash id="v7k2ld"
+```bash 
 docker volume create meu-volume
 ```
 
@@ -55,7 +55,7 @@ docker volume create meu-volume
 
 ## 📌 2. Usar volume em container
 
-```bash id="q9m4we"
+```bash 
 docker run -d \
   -v meu-volume:/var/lib/data \
   nginx
@@ -85,7 +85,7 @@ docker run -d \
 
 Exemplo:
 
-```bash id="b2k9mn"
+```bash 
 -v $(pwd):/app
 ```
 

@@ -81,7 +81,7 @@ Ex:
 
 Ex:
 
-```sql id="m1"
+```sql 
 CREATE TABLE alunos (
   id INT,
   nome VARCHAR(100),

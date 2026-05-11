@@ -74,14 +74,14 @@ Alternativa open source:
 
 No Ubuntu/Linux:
 
-```bash id="f9x4w6"
+```bash 
 sudo apt update
 sudo apt install openjdk-21-jdk -y
 ```
 
 Verificando instalação:
 
-```bash id="m4t8q3"
+```bash 
 java --version
 javac --version
 ```
@@ -92,7 +92,7 @@ javac --version
 
 Crie um arquivo chamado `Main.java`.
 
-```java id="7j3s5k"
+```java 
 public class Main {
 
     public static void main(String[] args) {
@@ -104,19 +104,19 @@ public class Main {
 
 Compilando:
 
-```bash id="4h7r2n"
+```bash 
 javac Main.java
 ```
 
 Executando:
 
-```bash id="v8r4k1"
+```bash 
 java Main
 ```
 
 Saída:
 
-```bash id="0j5t9d"
+```bash 
 Hello, ninjas
 ```
 
@@ -128,7 +128,7 @@ Hello, ninjas
 
 Java é estaticamente tipada, então toda variável precisa de um tipo.
 
-```java id="6k2f9s"
+```java 
 String nameOne = "emy";
 
 System.out.println(nameOne);
@@ -138,7 +138,7 @@ System.out.println(nameOne);
 
 ## Inteiros
 
-```java id="3r6f2m"
+```java 
 int ageOne = 20;
 int ageTwo = 30;
 
@@ -158,7 +158,7 @@ Tipos numéricos comuns:
 
 ## Decimais
 
-```java id="8n2w4s"
+```java 
 float price = 19.99f;
 double salary = 2500.75;
 ```
@@ -169,13 +169,13 @@ double salary = 2500.75;
 
 ## Imprimindo strings
 
-```java id="5r7u2q"
+```java 
 System.out.println("Hello, world!");
 ```
 
 Sem quebra de linha:
 
-```java id="6v2x8w"
+```java 
 System.out.print("Hello ");
 System.out.print("world!");
 ```
@@ -184,7 +184,7 @@ System.out.print("world!");
 
 ## String format
 
-```java id="2w9j4f"
+```java 
 String name = "Emy";
 int age = 27;
 
@@ -210,7 +210,7 @@ Especificadores comuns:
 
 ## Arrays
 
-```java id="7n4r8m"
+```java 
 int[] ages = {20, 25, 30};
 
 System.out.println(ages.length);
@@ -220,7 +220,7 @@ System.out.println(ages.length);
 
 ## Modificando arrays
 
-```java id="0m4w7r"
+```java 
 ages[1] = 50;
 ```
 
@@ -232,7 +232,7 @@ Arrays possuem tamanho fixo.
 
 Para listas dinâmicas usamos `ArrayList`.
 
-```java id="8v5n3k"
+```java 
 import java.util.ArrayList;
 
 ArrayList<Integer> scores = new ArrayList<>();
@@ -250,7 +250,7 @@ System.out.println(scores);
 
 ## Loop while
 
-```java id="9k6f2x"
+```java 
 int x = 0;
 
 while (x < 5) {
@@ -263,7 +263,7 @@ while (x < 5) {
 
 ## Loop for
 
-```java id="1q8v3m"
+```java 
 for (int i = 0; i < 5; i++) {
     System.out.println(i);
 }
@@ -273,7 +273,7 @@ for (int i = 0; i < 5; i++) {
 
 ## Foreach
 
-```java id="4s8w1n"
+```java 
 String[] names = {"emy", "ble", "winkii"};
 
 for (String name : names) {
@@ -287,7 +287,7 @@ for (String name : names) {
 
 ## Criando métodos
 
-```java id="5m8r2q"
+```java 
 public static void sayGreeting(String name) {
     System.out.println("Good morning " + name);
 }
@@ -295,7 +295,7 @@ public static void sayGreeting(String name) {
 
 Chamando:
 
-```java id="2x7v5k"
+```java 
 sayGreeting("emy");
 ```
 
@@ -303,7 +303,7 @@ sayGreeting("emy");
 
 ## Métodos com retorno
 
-```java id="6f4w8m"
+```java 
 public static String sayHello(String name) {
     return "Hello " + name;
 }
@@ -313,7 +313,7 @@ public static String sayHello(String name) {
 
 ## Múltiplos parâmetros
 
-```java id="3n5q9r"
+```java 
 public static String userInfo(
     String name,
     int age
@@ -328,7 +328,7 @@ public static String userInfo(
 
 `HashMap` é equivalente aos maps/dicionários.
 
-```java id="4r8w2m"
+```java 
 import java.util.HashMap;
 
 HashMap<String, Integer> scores =
@@ -340,13 +340,13 @@ scores.put("english", 15);
 
 Acessando valores:
 
-```java id="8w5m2q"
+```java 
 System.out.println(scores.get("maths"));
 ```
 
 Percorrendo:
 
-```java id="6t4x9r"
+```java 
 for (String key : scores.keySet()) {
     System.out.println(
         key + " - " + scores.get(key)
@@ -360,7 +360,7 @@ for (String key : scores.keySet()) {
 
 Java é totalmente orientada a objetos.
 
-```java id="9f6m3x"
+```java 
 public class Book {
 
     int id;
@@ -376,7 +376,7 @@ public class Book {
 
 ## Construtor
 
-```java id="8x5r4n"
+```java 
 public class Book {
 
     int id;
@@ -403,7 +403,7 @@ public class Book {
 
 Criando objeto:
 
-```java id="7r2m5q"
+```java 
 Book book1 = new Book(
     1,
     "Jane Eyre",
@@ -415,7 +415,7 @@ Book book1 = new Book(
 
 Alterando propriedades:
 
-```java id="2w6n8x"
+```java 
 book1.title = "Things Fall Apart";
 book1.author = "Chinua Achebe";
 ```
@@ -426,7 +426,7 @@ book1.author = "Chinua Achebe";
 
 Arquivo `Greetings.java`:
 
-```java id="4n8q5r"
+```java 
 package greetings;
 
 public class Greetings {
@@ -440,7 +440,7 @@ public class Greetings {
 
 Arquivo `Main.java`:
 
-```java id="6m3x8q"
+```java 
 import greetings.Greetings;
 
 public class Main {
@@ -456,13 +456,13 @@ public class Main {
 
 Compilando:
 
-```bash id="7q5m3r"
+```bash 
 javac greetings/Greetings.java Main.java
 ```
 
 Executando:
 
-```bash id="5r2n8x"
+```bash 
 java Main
 ```
 

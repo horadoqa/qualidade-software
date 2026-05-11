@@ -2,7 +2,7 @@
 
 ## Rodar testes com mais detalhes:
 
-```bash id="tip1"
+```bash 
 npx jasmine --verbose
 ```
 

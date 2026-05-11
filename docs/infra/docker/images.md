@@ -45,7 +45,7 @@ Cada instrução do Dockerfile cria uma “camada”.
 
 Quando você usa:
 
-```bash id="k2m9ab"
+```bash 
 docker run nginx
 ```
 
@@ -78,14 +78,14 @@ Ex:
 
 Você cria imagens usando um **Dockerfile**:
 
-```dockerfile id="d8k3mn"
+```dockerfile 
 FROM nginx:latest
 COPY ./index.html /usr/share/nginx/html/index.html
 ```
 
 Depois:
 
-```bash id="x9p2we"
+```bash 
 docker build -t meu-nginx .
 ```
 

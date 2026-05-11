@@ -68,14 +68,14 @@ Download oficial:
 
 No Ubuntu/Linux:
 
-```bash id="wz5v0z"
+```bash 
 sudo apt update
 sudo apt install nodejs npm -y
 ```
 
 Verificando instalação:
 
-```bash id="x7h9x9"
+```bash 
 node -v
 npm -v
 ```
@@ -86,19 +86,19 @@ npm -v
 
 Crie um arquivo chamado `main.js`.
 
-```javascript id="d3v2m8"
+```javascript 
 console.log("Hello, ninjas")
 ```
 
 Executando:
 
-```bash id="f8b2cl"
+```bash 
 node main.js
 ```
 
 Saída:
 
-```bash id="8x1jrf"
+```bash 
 Hello, ninjas
 ```
 
@@ -116,7 +116,7 @@ JavaScript possui três formas principais de declarar variáveis:
 
 Hoje em dia, usamos principalmente `let` e `const`.
 
-```javascript id="7o7ww6"
+```javascript 
 let nameOne = "emy"
 
 console.log(nameOne)
@@ -124,7 +124,7 @@ console.log(nameOne)
 
 Constantes:
 
-```javascript id="t4xv8v"
+```javascript 
 const country = "Brazil"
 ```
 
@@ -132,7 +132,7 @@ const country = "Brazil"
 
 ## Números
 
-```javascript id="sx0y5r"
+```javascript 
 let ageOne = 20
 let ageTwo = 30
 
@@ -141,7 +141,7 @@ console.log(ageOne, ageTwo)
 
 Números decimais:
 
-```javascript id="3r7ikv"
+```javascript 
 let price = 19.99
 ```
 
@@ -153,13 +153,13 @@ JavaScript usa o tipo `number` para inteiros e floats.
 
 ## Strings simples
 
-```javascript id="0z0x5n"
+```javascript 
 console.log("Hello, world!")
 ```
 
 Quebra de linha:
 
-```javascript id="ij58dz"
+```javascript 
 console.log("hello!\nnew line")
 ```
 
@@ -169,7 +169,7 @@ console.log("hello!\nnew line")
 
 A forma moderna de formatar strings em JavaScript:
 
-```javascript id="dz8r9i"
+```javascript 
 let name = "Emy"
 let age = 27
 
@@ -180,13 +180,13 @@ console.log(`My age is ${age} and my name is ${name}`)
 
 ## Tipo de variável
 
-```javascript id="u9e84x"
+```javascript 
 console.log(typeof age)
 ```
 
 Saída:
 
-```bash id="z5u6k6"
+```bash 
 number
 ```
 
@@ -196,7 +196,7 @@ number
 
 ## Arrays
 
-```javascript id="1r5f8h"
+```javascript 
 let ages = [20, 25, 30]
 
 console.log(ages)
@@ -207,7 +207,7 @@ console.log(ages.length)
 
 ## Modificando arrays
 
-```javascript id="3v3n9h"
+```javascript 
 let scores = [100, 50, 60]
 
 scores[2] = 25
@@ -218,7 +218,7 @@ console.log(scores)
 
 Saída:
 
-```bash id="l2j9hf"
+```bash 
 [100, 50, 25, 50]
 ```
 
@@ -226,7 +226,7 @@ Saída:
 
 ## Slice
 
-```javascript id="q4d5v0"
+```javascript 
 let rangeOne = scores.slice(0, 3)
 ```
 
@@ -236,7 +236,7 @@ let rangeOne = scores.slice(0, 3)
 
 ## Loop while
 
-```javascript id="m7o2v3"
+```javascript 
 let x = 0
 
 while (x < 5) {
@@ -249,7 +249,7 @@ while (x < 5) {
 
 ## Loop for
 
-```javascript id="6n5u2v"
+```javascript 
 for (let i = 0; i < 5; i++) {
     console.log("value of i is", i)
 }
@@ -259,7 +259,7 @@ for (let i = 0; i < 5; i++) {
 
 ## Iterando arrays
 
-```javascript id="s5g7l2"
+```javascript 
 let names = ["emy", "ble", "winkii"]
 
 for (let name of names) {
@@ -271,7 +271,7 @@ for (let name of names) {
 
 ## forEach
 
-```javascript id="7d4r2g"
+```javascript 
 names.forEach((value, index) => {
     console.log(`the position of ${value} is ${index}`)
 })
@@ -283,7 +283,7 @@ names.forEach((value, index) => {
 
 ## Criando funções
 
-```javascript id="4x5k8j"
+```javascript 
 function sayGreeting(name) {
     console.log("Good morning", name)
 }
@@ -291,7 +291,7 @@ function sayGreeting(name) {
 
 Chamando:
 
-```javascript id="f0l8e3"
+```javascript 
 sayGreeting("emy")
 ```
 
@@ -299,7 +299,7 @@ sayGreeting("emy")
 
 ## Funções como parâmetro
 
-```javascript id="2f9u7n"
+```javascript 
 function cycleNames(names, func) {
     for (let value of names) {
         func(value)
@@ -309,7 +309,7 @@ function cycleNames(names, func) {
 
 Uso:
 
-```javascript id="9m3x7h"
+```javascript 
 cycleNames(["emy", "pearl"], sayGreeting)
 ```
 
@@ -317,7 +317,7 @@ cycleNames(["emy", "pearl"], sayGreeting)
 
 ## Funções com retorno
 
-```javascript id="j3s8p5"
+```javascript 
 function sayHello(name) {
     console.log(`Hello ${name}`)
     return name
@@ -328,7 +328,7 @@ function sayHello(name) {
 
 ## Arrow functions
 
-```javascript id="e7n2v5"
+```javascript 
 const add = (a, b) => {
     return a + b
 }
@@ -340,7 +340,7 @@ const add = (a, b) => {
 
 Objetos são equivalentes aos maps/structs básicos.
 
-```javascript id="2m6j5d"
+```javascript 
 let scores = {
     maths: 20,
     english: 15
@@ -349,13 +349,13 @@ let scores = {
 
 Acessando valores:
 
-```javascript id="2f8x5t"
+```javascript 
 console.log(scores.maths)
 ```
 
 Percorrendo:
 
-```javascript id="l6j5s2"
+```javascript 
 for (let key in scores) {
     console.log(key, "-", scores[key])
 }
@@ -367,7 +367,7 @@ for (let key in scores) {
 
 JavaScript suporta orientação a objetos.
 
-```javascript id="8w5r4u"
+```javascript 
 class Book {
     constructor(id, title, author, year, userId) {
         this.id = id
@@ -381,7 +381,7 @@ class Book {
 
 Criando objeto:
 
-```javascript id="j5x4s8"
+```javascript 
 let book1 = new Book(
     1,
     "Jane Eyre",
@@ -393,7 +393,7 @@ let book1 = new Book(
 
 Alterando propriedades:
 
-```javascript id="m4t8w2"
+```javascript 
 book1.title = "Things Fall Apart"
 book1.author = "Chinua Achebe"
 ```
@@ -404,7 +404,7 @@ book1.author = "Chinua Achebe"
 
 Arquivo `greetings.js`:
 
-```javascript id="v9s6t3"
+```javascript 
 export const points = [20, 90, 100]
 
 export function sayHello(name) {
@@ -414,7 +414,7 @@ export function sayHello(name) {
 
 Arquivo `main.js`:
 
-```javascript id="g6s2w9"
+```javascript 
 import { points, sayHello } from "./greetings.js"
 
 sayHello("emy")
@@ -426,7 +426,7 @@ for (let v of points) {
 
 Executando:
 
-```bash id="5k4f7s"
+```bash 
 node main.js
 ```
 

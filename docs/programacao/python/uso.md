@@ -66,20 +66,20 @@ Você pode baixar o Python no site oficial:
 
 No Ubuntu/Linux:
 
-```bash id="1j4dgc"
+```bash 
 sudo apt update
 sudo apt install python3 -y
 ```
 
 Verificando a instalação:
 
-```bash id="v2iv7r"
+```bash 
 python3 --version
 ```
 
 Saída:
 
-```bash id="t47v6e"
+```bash 
 Python 3.x.x
 ```
 
@@ -89,19 +89,19 @@ Python 3.x.x
 
 Crie um arquivo chamado `main.py`.
 
-```python id="9o9z5v"
+```python 
 print("Hello, ninjas")
 ```
 
 Executando:
 
-```bash id="m01ydo"
+```bash 
 python3 main.py
 ```
 
 Saída:
 
-```bash id="tqnmq5"
+```bash 
 Hello, ninjas
 ```
 
@@ -115,7 +115,7 @@ Python é interpretado, então não precisamos compilar manualmente o código.
 
 Python é dinamicamente tipado, então não precisamos declarar tipos explicitamente.
 
-```python id="ypv2ya"
+```python 
 name_one = "emy"
 
 print(name_one)
@@ -123,7 +123,7 @@ print(name_one)
 
 Também podemos alterar tipos dinamicamente:
 
-```python id="9t1gws"
+```python 
 x = 10
 x = "hello"
 ```
@@ -132,7 +132,7 @@ x = "hello"
 
 ## Inteiros e floats
 
-```python id="hbdj94"
+```python 
 age_one = 20
 age_two = 30
 age_three = 40
@@ -142,7 +142,7 @@ print(age_one, age_two, age_three)
 
 Números decimais:
 
-```python id="3e6rt4"
+```python 
 price = 19.99
 ```
 
@@ -154,13 +154,13 @@ Python possui suporte automático para inteiros grandes.
 
 ## Imprimindo strings
 
-```python id="9o2oyd"
+```python 
 print("Hello, world!")
 ```
 
 Quebra de linha:
 
-```python id="6g6hfo"
+```python 
 print("hello!\nnew line")
 ```
 
@@ -170,7 +170,7 @@ print("hello!\nnew line")
 
 A forma moderna de formatar strings em Python é usando f-strings:
 
-```python id="i4szbe"
+```python 
 name = "Emy"
 age = 27
 
@@ -179,19 +179,19 @@ print(f"My age is {age} and my name is {name}")
 
 Saída:
 
-```bash id="s0j1k8"
+```bash 
 My age is 27 and my name is Emy
 ```
 
 Mostrando tipos:
 
-```python id="h5i5qa"
+```python 
 print(type(age))
 ```
 
 Saída:
 
-```bash id="aj9znh"
+```bash 
 <class 'int'>
 ```
 
@@ -203,7 +203,7 @@ Saída:
 
 Listas em Python são equivalentes aos slices do Go.
 
-```python id="0j0o7f"
+```python 
 ages = [20, 25, 30]
 
 print(ages)
@@ -212,7 +212,7 @@ print(len(ages))
 
 Saída:
 
-```bash id="9oq8sd"
+```bash 
 [20, 25, 30]
 3
 ```
@@ -221,7 +221,7 @@ Saída:
 
 ## Alterando listas
 
-```python id="0w03pi"
+```python 
 scores = [100, 50, 60]
 
 scores[2] = 25
@@ -232,7 +232,7 @@ print(scores)
 
 Saída:
 
-```bash id="fuv5l7"
+```bash 
 [100, 50, 25, 50]
 ```
 
@@ -240,13 +240,13 @@ Saída:
 
 ## Fatiamento (slicing)
 
-```python id="2q77ul"
+```python 
 range_one = scores[0:3]
 ```
 
 Também funciona:
 
-```python id="z6x7hu"
+```python 
 scores[2:]
 scores[:3]
 ```
@@ -257,7 +257,7 @@ scores[:3]
 
 ## Loop while
 
-```python id="wmj66f"
+```python 
 x = 0
 
 while x < 5:
@@ -269,7 +269,7 @@ while x < 5:
 
 ## Loop for
 
-```python id="wb6kbo"
+```python 
 for i in range(5):
     print("value of i is", i)
 ```
@@ -278,7 +278,7 @@ for i in range(5):
 
 ## Iterando listas
 
-```python id="l8sl9t"
+```python 
 names = ["emy", "ble", "winkii"]
 
 for name in names:
@@ -289,7 +289,7 @@ for name in names:
 
 ## enumerate()
 
-```python id="y7q4ft"
+```python 
 for index, value in enumerate(names):
     print(f"the position of {value} is {index}")
 ```
@@ -300,14 +300,14 @@ for index, value in enumerate(names):
 
 ## Criando funções
 
-```python id="34a2jf"
+```python 
 def say_greeting(name):
     print("Good morning", name)
 ```
 
 Chamando:
 
-```python id="0br4s2"
+```python 
 say_greeting("emy")
 ```
 
@@ -315,7 +315,7 @@ say_greeting("emy")
 
 ## Funções como parâmetro
 
-```python id="t8jq2f"
+```python 
 def cycle_names(names, func):
     for value in names:
         func(value)
@@ -323,7 +323,7 @@ def cycle_names(names, func):
 
 Uso:
 
-```python id="hqv5hu"
+```python 
 cycle_names(["emy", "pearl"], say_greeting)
 ```
 
@@ -331,7 +331,7 @@ cycle_names(["emy", "pearl"], say_greeting)
 
 ## Funções com retorno
 
-```python id="g18a6d"
+```python 
 def say_hello(name):
     print(f"Hello {name}")
     return name
@@ -341,7 +341,7 @@ def say_hello(name):
 
 ## Múltiplos retornos
 
-```python id="5zq0qk"
+```python 
 def say_hello(name, age):
     print(f"Hello {name}, you are {age} years old")
     return name, age
@@ -353,7 +353,7 @@ def say_hello(name, age):
 
 Dicionários equivalem aos maps do Go.
 
-```python id="9rvzhm"
+```python 
 scores = {
     "maths": 20,
     "english": 15,
@@ -362,13 +362,13 @@ scores = {
 
 Acessando valores:
 
-```python id="tz4h9u"
+```python 
 print(scores["maths"])
 ```
 
 Percorrendo:
 
-```python id="5ksffl"
+```python 
 for key, value in scores.items():
     print(key, "-", value)
 ```
@@ -379,7 +379,7 @@ for key, value in scores.items():
 
 Classes substituem structs do Go e oferecem orientação a objetos completa.
 
-```python id="5m4c8s"
+```python 
 class Book:
     def __init__(self, id, title, author, year, user_id):
         self.id = id
@@ -391,13 +391,13 @@ class Book:
 
 Criando objeto:
 
-```python id="cz6wpa"
+```python 
 book1 = Book(1, "Jane Eyre", "Jane Austen", 1990, 6)
 ```
 
 Alterando propriedades:
 
-```python id="drm3nm"
+```python 
 book1.title = "Things Fall Apart"
 book1.author = "Chinua Achebe"
 ```
@@ -408,7 +408,7 @@ book1.author = "Chinua Achebe"
 
 Arquivo `greetings.py`:
 
-```python id="1l3g35"
+```python 
 points = [20, 90, 100]
 
 def say_hello(name):
@@ -417,7 +417,7 @@ def say_hello(name):
 
 Arquivo `main.py`:
 
-```python id="4g6z12"
+```python 
 import greetings
 
 greetings.say_hello("emy")
@@ -428,7 +428,7 @@ for v in greetings.points:
 
 Executando:
 
-```bash id="7m3h0l"
+```bash 
 python3 main.py
 ```
 

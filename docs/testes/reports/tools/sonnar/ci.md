@@ -68,7 +68,7 @@ SONAR_TOKEN=seu_token_aqui
 
 ## 📄 `.github/workflows/sonar.yml`
 
-```yaml id="sonar2"
+```yaml 
 name: SonarQube Analysis
 
 on:
@@ -112,7 +112,7 @@ jobs:
 
 Sempre que você fizer:
 
-```bash id="sonar3"
+```bash 
 git push origin main
 ```
 

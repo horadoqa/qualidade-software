@@ -18,13 +18,13 @@ Antes de instalar o Selenium, você precisa ter:
 
 Verifique:
 
-```bash id="v3n7k2"
+```bash 
 python --version
 ```
 
 ou:
 
-```bash id="z9q2x6"
+```bash 
 python3 --version
 ```
 
@@ -34,7 +34,7 @@ python3 --version
 
 ## 🔹 2. pip (Gerenciador de pacotes)
 
-```bash id="p4k8y1"
+```bash 
 pip --version
 ```
 
@@ -64,7 +64,7 @@ O Selenium precisa de um **driver específico** para cada navegador:
 
 ## 🔹 5. (Opcional) Virtual Environment
 
-```bash id="t8f1c3"
+```bash 
 python -m venv venv
 ```
 
@@ -72,13 +72,13 @@ Ativação:
 
 * Windows:
 
-```bash id="g6m2r9"
+```bash 
 venv\Scripts\activate
 ```
 
 * macOS/Linux:
 
-```bash id="h3v9k5"
+```bash 
 source venv/bin/activate
 ```
 
@@ -100,7 +100,7 @@ source venv/bin/activate
 
 ### Passo 2: Verificar instalação
 
-```bash id="y7x4k8"
+```bash 
 python --version
 pip --version
 ```
@@ -109,7 +109,7 @@ pip --version
 
 ### Passo 3: Criar projeto
 
-```bash id="n2k9f1"
+```bash 
 mkdir meu-projeto-selenium
 cd meu-projeto-selenium
 ```
@@ -118,7 +118,7 @@ cd meu-projeto-selenium
 
 ### Passo 4: (Opcional) Criar ambiente virtual
 
-```bash id="r5t8m3"
+```bash 
 python -m venv venv
 venv\Scripts\activate
 ```
@@ -127,7 +127,7 @@ venv\Scripts\activate
 
 ### Passo 5: Instalar Selenium
 
-```bash id="b8c3z6"
+```bash 
 pip install selenium
 ```
 
@@ -159,7 +159,7 @@ pip install selenium
 
 ### Passo 8: Verificar instalação
 
-```bash id="k4v1p7"
+```bash 
 python -c "import selenium; print(selenium.__version__)"
 ```
 
@@ -175,7 +175,7 @@ python -c "import selenium; print(selenium.__version__)"
 
 #### Opção B: Homebrew
 
-```bash id="m1c7z9"
+```bash 
 brew install python
 ```
 
@@ -183,7 +183,7 @@ brew install python
 
 ### Passo 2: Verificar instalação
 
-```bash id="p6y2k8"
+```bash 
 python3 --version
 pip3 --version
 ```
@@ -192,7 +192,7 @@ pip3 --version
 
 ### Passo 3: Criar projeto
 
-```bash id="q9v5n2"
+```bash 
 mkdir meu-projeto-selenium
 cd meu-projeto-selenium
 ```
@@ -201,7 +201,7 @@ cd meu-projeto-selenium
 
 ### Passo 4: Criar ambiente virtual
 
-```bash id="s3k8t1"
+```bash 
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -210,7 +210,7 @@ source venv/bin/activate
 
 ### Passo 5: Instalar Selenium
 
-```bash id="d7n4x6"
+```bash 
 pip install selenium
 ```
 
@@ -220,7 +220,7 @@ pip install selenium
 
 #### Chrome (via Homebrew):
 
-```bash id="h2p9k4"
+```bash 
 brew install chromedriver
 ```
 
@@ -228,7 +228,7 @@ brew install chromedriver
 
 ### Passo 7: Verificar instalação
 
-```bash id="z8m1r5"
+```bash 
 python3 -c "import selenium; print(selenium.__version__)"
 ```
 
@@ -238,7 +238,7 @@ python3 -c "import selenium; print(selenium.__version__)"
 
 ### Passo 1: Instalar Python e pip
 
-```bash id="w5k2p8"
+```bash 
 sudo apt update
 sudo apt install -y python3 python3-pip python3-venv
 ```
@@ -247,7 +247,7 @@ sudo apt install -y python3 python3-pip python3-venv
 
 ### Passo 2: Verificar instalação
 
-```bash id="x6v3t9"
+```bash 
 python3 --version
 pip3 --version
 ```
@@ -256,7 +256,7 @@ pip3 --version
 
 ### Passo 3: Criar projeto
 
-```bash id="c1n7m4"
+```bash 
 mkdir meu-projeto-selenium
 cd meu-projeto-selenium
 ```
@@ -265,7 +265,7 @@ cd meu-projeto-selenium
 
 ### Passo 4: Criar ambiente virtual
 
-```bash id="j8q2k5"
+```bash 
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -274,7 +274,7 @@ source venv/bin/activate
 
 ### Passo 5: Instalar Selenium
 
-```bash id="f4r9x2"
+```bash 
 pip install selenium
 ```
 
@@ -284,7 +284,7 @@ pip install selenium
 
 #### Chrome:
 
-```bash id="k7p3z1"
+```bash 
 sudo apt install -y chromium-browser chromium-chromedriver
 ```
 
@@ -292,7 +292,7 @@ sudo apt install -y chromium-browser chromium-chromedriver
 
 ### Passo 7: Verificar instalação
 
-```bash id="t2v6m8"
+```bash 
 python3 -c "import selenium; print(selenium.__version__)"
 ```
 
@@ -333,7 +333,7 @@ Para testar se está tudo funcionando, você pode rodar um script simples (não 
 
 ### 🔸 Permissões (Linux/macOS)
 
-```bash id="n9v2k6"
+```bash 
 chmod +x chromedriver
 ```
 
@@ -341,7 +341,7 @@ chmod +x chromedriver
 
 # 🧪 Verificando instalação
 
-```bash id="g3m8p1"
+```bash 
 python -m pip show selenium
 ```
 
@@ -349,7 +349,7 @@ python -m pip show selenium
 
 # 📦 Desinstalação
 
-```bash id="y2k7t4"
+```bash 
 pip uninstall selenium
 ```
 

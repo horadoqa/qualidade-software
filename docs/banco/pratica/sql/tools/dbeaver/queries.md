@@ -103,7 +103,7 @@ Bibliotecas comuns:
 
 Exemplo:
 
-```python id="5ptgwr"
+```python 
 import psycopg2
 
 conn = psycopg2.connect(
@@ -165,7 +165,7 @@ Bibliotecas:
 
 Exemplo:
 
-```javascript id="zbd2hs"
+```javascript 
 const { Client } = require('pg');
 
 const client = new Client({

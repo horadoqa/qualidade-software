@@ -39,7 +39,7 @@ O Docker possui alguns tipos principais de rede:
 
 Exemplo:
 
-```bash id="net1"
+```bash 
 docker run -d --name app1 nginx
 docker run -d --name app2 nginx
 ```
@@ -54,7 +54,7 @@ Ambos ficam na mesma rede padrão (`bridge`).
 
 O container usa a rede do próprio computador.
 
-```bash id="net2"
+```bash 
 docker run --network host nginx
 ```
 
@@ -69,7 +69,7 @@ docker run --network host nginx
 
 O container não tem rede.
 
-```bash id="net3"
+```bash 
 docker run --network none nginx
 ```
 
@@ -104,11 +104,11 @@ O container recebe um IP direto na rede física.
 
 ## 📌 Exemplo prático
 
-```bash id="net4"
+```bash 
 docker network create minha-rede
 ```
 
-```bash id="net5"
+```bash 
 docker run -d --name app1 --network minha-rede nginx
 docker run -d --name app2 --network minha-rede nginx
 ```
@@ -134,7 +134,7 @@ O Docker cria automaticamente:
 
 # 🧠 Explicação simples do fluxo
 
-```text id="netflow"
+```text 
 Container A → rede virtual → Docker bridge → rede virtual → Container B
 ```
 
@@ -144,7 +144,7 @@ Container A → rede virtual → Docker bridge → rede virtual → Container B
 
 Quando você faz:
 
-```bash id="net6"
+```bash 
 docker run -p 8080:80 nginx
 ```
 

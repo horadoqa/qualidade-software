@@ -14,7 +14,7 @@ meu-projeto/
 
 ### 📌 soma.py
 
-```python id="code1"
+```python 
 def soma(a, b):
     return a + b
 ```
@@ -23,7 +23,7 @@ def soma(a, b):
 
 ### 📌 test_soma.py
 
-```python id="code2"
+```python 
 from soma import soma
 
 def test_soma():
