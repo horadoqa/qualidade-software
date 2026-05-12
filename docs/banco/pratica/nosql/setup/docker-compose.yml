@@ -1,0 +1,18 @@
+services:
+  mongodb:
+    image: mongo:8
+    container_name: mongodb
+    restart: always
+
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: horadoqa
+      MONGO_INITDB_ROOT_PASSWORD: 1q2w3e4r
+
+    ports:
+      - "27017:27017"
+
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:

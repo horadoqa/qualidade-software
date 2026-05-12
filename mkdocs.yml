@@ -122,10 +122,10 @@ nav:
     
     - Pratica:
       - SQL:
-        - Setup: banco/pratica/sql/setup/setup.md
+        - Criando Banco: banco/pratica/sql/create-banco.md
         - Conectando: banco/pratica/sql/connect.md
-        - Criando Banco: banco/pratica/sql/create.md
-        - Criando Tabela: banco/pratica/sql/table.md
+        - Criando Tabela: banco/pratica/sql/create-table.md
+        - Criando Tabela com Id: banco/pratica/sql/create-table-uuid.md
         - Inserindo Dados: banco/pratica/sql/insert.md
         - Listando Dados: banco/pratica/sql/read.md
         - Modificando Dados: banco/pratica/sql/update.md
@@ -135,25 +135,37 @@ nav:
           - DBeaver: 
             - Sobre: banco/pratica/sql/tools/dbeaver/dbeaver.md
             - Instalação: banco/pratica/sql/tools/dbeaver/install.md
-            - Queries: banco/pratica/sql/tools/dbeaver/queries.md
-          - Python: 
-            - Sobre: banco/pratica/sql/tools/python/python.md
-            - Instalação: banco/pratica/sql/tools/python/install.md
-            - Exemplos: banco/pratica/sql/tools/python/examples.md
-          - Robot Framework: 
-            - Sobre: banco/pratica/sql/tools/robot/robot.md
-            - Instalação: banco/pratica/sql/tools/robot/install.md
-            - Testes: banco/pratica/sql/tools/robot/tests.md
-
+          
       - NoSQL:
-        - Setup: banco/pratica/nosql/setup/setup.md
+        - Criando Banco: banco/pratica/nosql/create-banco.md
         - Conectando: banco/pratica/nosql/connect.md
-        - Criando Banco: banco/pratica/nosql/create.md
-        - Criando Coleção: banco/pratica/nosql/collection.md
+        - Coleção: 
+          - Sobre: banco/pratica/nosql/collection/collection.md
+          - Criando Coleção: banco/pratica/nosql/collection/create-collection.md
+          - Criando Coleção com Id: banco/pratica/nosql/collection/create-collection-uuid.md
+          - Criando Coleção com Json: banco/pratica/nosql/collection/create-collection-json.md
+          - Criando Coleção com Json e Id: banco/pratica/nosql/collection/create-collection-json-uuid.md
+          - Criando Coleção com Json e Id Automático: banco/pratica/nosql/collection/create-collection-json-uuid-auto.md
+          - Criando Coleção com Json e Id Automático e Indexação: banco/pratica/nosql/collection/create-collection-json-uuid-auto-index.md
+          - Criando Coleção com Json e Id Automático e Indexação e Validação: banco/pratica/nosql/collection/create-collection-json-uuid-auto-index-validation.md
+          - Listando Coleção: banco/pratica/nosql/collection/list-collection.md
+          - Atualizando Coleção: banco/pratica/nosql/collection/update-collection.md
+          - Deletando Coleção: banco/pratica/nosql/collection/delete-collection.md
         - Inserindo Dados: banco/pratica/nosql/insert.md
         - Listando Dados: banco/pratica/nosql/read.md
         - Modificando Dados: banco/pratica/nosql/update.md
         - Deletando Dados: banco/pratica/nosql/delete.md
+      
+      - Ferramentas:
+        - MongoDB Compass:
+          - Sobre: banco/pratica/nosql/tools/compass/compass.md
+          - Instalação: banco/pratica/nosql/tools/compass/install.md
+        - Json Server:
+          - Sobre: banco/pratica/nosql/tools/json/json.md
+          - Instalação: banco/pratica/nosql/tools/json/install.md
+        - Jsonlint:
+          - Sobre: banco/pratica/nosql/tools/jsonlint/jsonlint.md
+          - Instalação: banco/pratica/nosql/tools/jsonlint/install.md
 
       - Dicas: banco/pratica/dicas.md
 
@@ -171,7 +183,7 @@ nav:
     - Temas: mkdocs/themes.md
     - Deploy: mkdocs/deploy.md
     - Dicas: mkdocs/dicas.md
-    
+
   - Programação:
     - Linguagens:
       - Go: 

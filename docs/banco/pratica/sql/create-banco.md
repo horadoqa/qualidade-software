@@ -7,7 +7,7 @@ Crie um arquivo chamado `docker-compose.yml`:
 ```yaml
 services:
   postgres:
-    image: postgres:15
+    image: postgres:16
     container_name: postgres-db
     restart: always
     environment:
