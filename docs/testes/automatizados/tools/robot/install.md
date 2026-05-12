@@ -22,10 +22,6 @@ Verifique se já está instalado:
 python --version
 ```
 
-```
-python --version
-```
-
 ou:
 
 ```bash
