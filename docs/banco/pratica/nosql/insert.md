@@ -1,6 +1,6 @@
 # Inserindo dados no banco com MongoDB
 
-Exemplos de inserção de dados no MongoDB usando **Python**, **cURL** e **Postman (collection pronta)**.
+Exemplos de inserção de dados no MongoDB usando **Compass**, **Python**, **cURL** e **Postman (collection pronta)**.
 
 Assumindo que o MongoDB está rodando localmente via Docker:
 
@@ -9,8 +9,12 @@ mongodb://localhost:27017
 ```
 
 ---
+# 1. Inserir dados via compass
 
-# 🐍 1. Inserir dados com Python
+Acessar o Banco e clicar em `ADD DATA` onde pode sem importar o arquivo json que contem os registros.
+
+
+# 🐍 2. Inserir dados com Python
 
 Usando o driver oficial PyMongo
 
@@ -51,7 +55,7 @@ print("ID inserido:", result.inserted_id)
 
 ---
 
-# 🌐 2. Inserir dados com cURL (via API)
+# 🌐 3. Inserir dados com cURL (via API)
 
 ⚠️ Importante: MongoDB NÃO aceita HTTP direto.
 Então você precisa de uma API intermediária (ex: Node.js ou Python Flask).
@@ -110,7 +114,7 @@ curl -X POST http://127.0.0.1:5000/usuarios \
 
 ---
 
-# 📬 3. Postman (Collection pronta)
+# 📬 4. Postman (Collection pronta)
 
 ## Endpoint
 
